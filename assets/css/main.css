@@ -1700,7 +1700,7 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			box-shadow: 0 0 0 2px #21b2a6;
+			box-shadow: 0 0 0 2px #ed4933;
 		}
 
 	.select-wrapper {
@@ -1811,7 +1811,7 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			box-shadow: 0 0 0 2px #21b2a6;
+			box-shadow: 0 0 0 2px #ed4933;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -1922,15 +1922,15 @@
 			}
 
 		.icon.style1 {
-			color: #00ffcc;
+			color: #ffffff;
 		}
 
 		.icon.style2 {
-			color: #00f0ff;
+			color: #ffffff;
 		}
 
 		.icon.style3 {
-			color: #76ddff;
+			color: #ffffff;
 		}
 
 /* Image */
@@ -2428,7 +2428,7 @@
 
 			.features li:before {
 				display: block;
-				color: #00ffcc;
+				color: #ffffff;
 				position: absolute;
 				left: 1.75em;
 				top: 2.75em;
@@ -2641,8 +2641,8 @@
 		}
 
 		.wrapper.style1 {
-			background-color: #9b0d0d;
-			color: #c7ebe8;
+			background-color: #ed4933;
+			color: #ffffff;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -2674,7 +2674,7 @@
 			}
 
 			.wrapper.style1 header.major p {
-				color: #c7ebe8;
+				color: #ffffff;
 			}
 
 			.wrapper.style1 label {
@@ -2695,7 +2695,7 @@
 
 			.wrapper.style1 input[type="checkbox"] + label,
 			.wrapper.style1 input[type="radio"] + label {
-				color: #c7ebe8;
+				color: #ffffff;
 			}
 
 				.wrapper.style1 input[type="checkbox"] + label:before,
@@ -2706,7 +2706,7 @@
 			.wrapper.style1 input[type="checkbox"]:checked + label:before,
 			.wrapper.style1 input[type="radio"]:checked + label:before {
 				background: #ffffff;
-				color: #21b2a6;
+				color: #ed4933;
 			}
 
 			.wrapper.style1 ::-webkit-input-placeholder {
@@ -2799,8 +2799,8 @@
 		}
 
 		.wrapper.style3 {
-			background-color: #9b0d0d;
-			color: #d3d4e4;
+			background-color: #ed4933;
+			color: #ffffff;
 		}
 
 			.wrapper.style3 strong, .wrapper.style3 b {
@@ -2832,7 +2832,7 @@
 			}
 
 			.wrapper.style3 header.major p {
-				color: #d3d4e4;
+				color: #ffffff;
 			}
 
 			.wrapper.style3 label {
@@ -2853,7 +2853,7 @@
 
 			.wrapper.style3 input[type="checkbox"] + label,
 			.wrapper.style3 input[type="radio"] + label {
-				color: #d3d4e4;
+				color: #ffffff;
 			}
 
 				.wrapper.style3 input[type="checkbox"] + label:before,
@@ -3160,7 +3160,7 @@
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #21b2a6;
+		background: #ed4933;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;

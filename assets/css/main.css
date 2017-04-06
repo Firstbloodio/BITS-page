@@ -3522,9 +3522,10 @@
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 7em 3em 5em 3em ;
-				height: auto;
+				padding: 7em 3em 5em 3em;
+				/*height: auto;*/
 				min-height: 0;
+				height: 300px;
 			}
 
 				#banner h2 {
@@ -3798,8 +3799,7 @@
 		background: none;
 	}
 
-	body.is-mobile.landing #banner,
-	body.is-mobile.landing .wrapper.style4 {
+	body.is-mobile.landing #banner{
 		background-image: -moz-linear-gradient(top, rgba(255,0,0,0.2), rgba(0,0,0,0), rgba(255,0,0,0.3)), url("../../images/banner.jpg");
 		background-image: -webkit-linear-gradient(top, rgba(255,0,0,0.2), rgba(0,0,0,0), rgba(255,0,0,0.3)), url("../../images/banner.jpg");
 		background-image: -ms-linear-gradient(top, rgba(255,0,0,0.2), rgba(0,0,0,0), rgba(255,0,0,0.3)), url("../../images/banner.jpg");

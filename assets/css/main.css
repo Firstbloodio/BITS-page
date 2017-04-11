@@ -1411,6 +1411,11 @@
 		width: device-width;
 	}
 
+
+	.announcement{
+		font-size: 6px;
+	}
+
 	body {
 		background: #2e3842;
 	}

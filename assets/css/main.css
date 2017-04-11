@@ -16,10 +16,13 @@
 	background:rgba(20,20,20,0.55);
 	height:50px;
 	color:#808080;
-	font-size: 12px;
+	font-size: 11px;
 	text-align: center;
-	padding-top:10px;
+	padding-top:15px;
+	line-height: 125%;
 }
+
+
 
 
 
@@ -1194,6 +1197,7 @@
 
 		.announcement{
 			font-size: 6px;
+			height:40px;
 		}
 
 		.row > * {

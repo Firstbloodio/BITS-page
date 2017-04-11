@@ -2308,7 +2308,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #C00000;
+			background-color: #ff9900;
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -2318,7 +2318,8 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #ef5e4a !important;
+				background-color: #ffffff !important;
+				color:#ff9900 !important;
 			}
 
 			input[type="submit"].special:active,
@@ -3719,8 +3720,8 @@
 				}
 
 		#footer .copyright {
-			color: rgba(255, 255, 255, 0.5);
-			font-size: 0.8em;
+			color: rgba(255, 255, 255, 0.9);
+			font-size: 0.9em;
 			letter-spacing: 0.225em;
 			list-style: none;
 			padding: 0;

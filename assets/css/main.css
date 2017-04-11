@@ -1192,6 +1192,10 @@
 
 	@media screen and (max-width: 480px) {
 
+		.announcement{
+			font-size: 6px;
+		}
+
 		.row > * {
 			padding: 0 0 0 1.5em;
 		}
@@ -1412,9 +1416,6 @@
 	}
 
 
-	.announcement{
-		font-size: 6px;
-	}
 
 	body {
 		background: #2e3842;

@@ -1478,6 +1478,10 @@
 		line-height: 1em;
 		margin: 0 0 1em 0;
 		text-transform: uppercase;
+		Size: 2 em
+line height: 1.5 em
+weight: 400
+letter spacing: 0.05
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1486,8 +1490,11 @@
 		}
 
 	h2 {
+		size: 2em;
 		font-size: 1.35em;
-		line-height: 1.75em;
+		line-height: 1.50em;
+		weight: 400;
+		letter-spacing: 0.05em;
 	}
 
 		@media screen and (max-width: 736px) {

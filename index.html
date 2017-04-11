@@ -42,31 +42,18 @@
 	</head>
 	<body class="landing">
 
-		<div class="announcement">
-				FirstBlood&trade; is NOT AFFILIATED, AUTHORIZED, LICENSED, OR ENDORSED by Dota&trade;, Dota 2&trade;, or Valve Corporation. </br>Dota&trade;, Dota 2&trade;, the Dota logo® and Steam&trade; are trademarks of Valve Corporation.
-		</div>
-
-
-			<script>
-
-				$(document).ready(function() {
-
-			    var docHeight = $(window).height();
-			    var footerHeight = $('.footer').height();
-			    var footerTop = $('.footer').position().top + footerHeight;
-
-			    if (footerTop < docHeight) {
-			     $('.footer').css('margin-top', 10+ (docHeight - footerTop) + 'px');
-			    }
-			   });
-
-			</script>
+			<!-- <div class="announcement">
+					FirstBlood&trade; is NOT AFFILIATED, AUTHORIZED, LICENSED, OR ENDORSED by Dota&trade;, Dota 2&trade;, or Valve Corporation. </br>Dota&trade;, Dota 2&trade;, the Dota logo® and Steam&trade; are trademarks of Valve Corporation.
+			</div> -->
 
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
 
 				<!-- Header -->
 					<header id="header" class="alt">
+						<div class="announcement">
+								FirstBlood&trade; is NOT AFFILIATED, AUTHORIZED, LICENSED, OR ENDORSED by Dota&trade;, Dota 2&trade;, or Valve Corporation. </br>Dota&trade;, Dota 2&trade;, the Dota logo® and Steam&trade; are trademarks of Valve Corporation.
+						</div>
 						<h1><a href="index.html">Blood in the Streets&trade;</a></h1>
 						<nav id="nav">
 							<ul>
@@ -85,7 +72,7 @@
 
 				<!-- Banner -->
 					<section id="banner">
-						<a href="#one" class="more scrolly">Learn More</a>
+						<a href="#one" class="more scrolly" style= "margin-top: -30px">Learn More</a>
 					</section>
 
 				<!-- One -->

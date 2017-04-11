@@ -18,8 +18,10 @@
 	color:#808080;
 	font-size: 11px;
 	text-align: center;
-	padding-top:15px;
+	padding-top:12px;
 	line-height: 125%;
+	top:0px;
+	z-index:999999;
 }
 
 

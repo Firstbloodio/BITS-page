@@ -9,6 +9,8 @@ Repository responsible for FirstBlood.io upcoming tournament landing page.
 `Spectral by HTML5 UP` Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)<br>
 `Node.js & npm`<br>
 `http-server package`<br>
+`Typeform`<br>
+
 
 
 ## Installing Node.js (if you don't have it)

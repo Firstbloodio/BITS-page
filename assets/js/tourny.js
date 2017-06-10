@@ -2,10 +2,10 @@
 
 var bigData = {
   teams : [
-    [{name: "ProDotA", flag: "US"},  {name:"People's Choice"}],
-    [{name: "Danish Bears"},  {name:"Gambit"}],
-    [{name: "Crescendo"},  {name:"Singularity"}],
-    [{name: "Anji"},  {name:"Mystery Team"}],
+    [{name: "ProDotA",flag: "pg"},  {name:"Elements Pro", flag: "ep"}],
+    [{name: "Danish Bears" ,flag: "db"},  {name:"Gambit", flag: "ge"}],
+    [{name: "Crescendo" ,flag: "co"},  {name:"Singularity",flag: "ts"}],
+    [{name: "Cyber Anji",flag: "ca"},  {name:"M19", flag:'m19'}],
   ],
   results : [[ /* WINNER BRACKET */
     [[null, null], [null, null], [null, null], [null, null]],
@@ -36,7 +36,7 @@ var qulifierData = {
 
 $(function() {
   $('#bracket').bracket({
-    teamWidth: 150,
+    teamWidth: 145,
     init: bigData,
     decorator: {
       edit: edit_fn,
@@ -44,7 +44,7 @@ $(function() {
     }
   })
   $('#qualifier').bracket({
-    teamWidth: 150,
+    teamWidth: 100,
     init: qulifierData,
     decorator: {
       edit: edit_fn,
@@ -66,7 +66,7 @@ function render_fn(container, data, score, state) {
     case "entry-default-win":
     case "entry-complete":
       // container.append(data.name);
-      container.append('<img src="../images/team/png/'+data.flag+'.png" style = "height:50%;" /> ').append(data.name)
+      container.append('<img src="../images/team/'+data.flag+'.png" style = "height:80%;" /> ').append(data.name)
       return;
   }
 }

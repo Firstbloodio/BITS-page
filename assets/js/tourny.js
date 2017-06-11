@@ -8,16 +8,16 @@ var bigData = {
     [{name: "Cyber Anji",flag: "ca"},  {name:"M19", flag:'m19'}],
   ],
   results : [[ /* WINNER BRACKET */
-    [[null, null], [null, null], [null, null], [null, null]],
-    [[null, null], [null, null]],
-    [[null, null]]
+    [[1, 0], [1, 0], [1, 0], [0, 1]],
+    [[0, 1], [1, 0]],
+    [[0, 1]]
   ], [         /* LOSER BRACKET */
-    [[null, null], [null, null]],
-    [[null, null], [null, null]],
-    [[null, null]],
-    [[null, null]]
+    [[1, 0], [1, 2]],
+    [[1, 2], [1, 2]],
+    [[1, 2]],
+    [[1, 2]]
   ], [         /* FINALS */
-    [[null, null]]
+    [[1, 2]]
   ]]
 }
 
@@ -38,6 +38,8 @@ $(function() {
   $('#bracket').bracket({
     teamWidth: 145,
     init: bigData,
+    skipConsolationRound: true,
+    skipSecondaryFinal: true,
     decorator: {
       edit: edit_fn,
       render: render_fn
@@ -66,27 +68,15 @@ function render_fn(container, data, score, state) {
     case "entry-default-win":
     case "entry-complete":
       // container.append(data.name);
-      container.append('<img src="../images/team/'+data.flag+'.png" style = "height:80%;" /> ').append(data.name)
+      container.append('<img src="images/team/'+data.flag+'.png" style = "height:80%;" /> ').append(data.name)
       return;
   }
 }
 
-function renderQualifier(container, data, score, state) {
-  switch(state) {
-    case "empty-bye":
-      container.append("No team")
-      return;
-    case "empty-tbd":
-        container.append("TBD")
-      return;
+$(function() {
 
-    case "entry-no-score":
-    case "entry-default-win":
-    case "entry-complete":
-      container.append('')
-      return;
-  }
-}
+  })
+
 
 /* Edit function is called when team label is clicked */
 function edit_fn(container, data, doneCb) {

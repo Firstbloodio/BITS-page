@@ -8,16 +8,16 @@ var bigData = {
     [{name: "Cyber Anji",flag: "ca"},  {name:"M19", flag:'m19'}],
   ],
   results : [[ /* WINNER BRACKET */
-    [[1, 0], [1, 0], [1, 0], [0, 1]],
-    [[0, 1], [1, 0]],
-    [[0, 1]]
+    [[null, null], [null, null], [null, null], [null, null]],
+    [[null, null], [null, null]],
+    [[null, null]]
   ], [         /* LOSER BRACKET */
-    [[1, 0], [1, 2]],
-    [[1, 2], [1, 2]],
-    [[1, 2]],
-    [[1, 2]]
+    [[null, null], [null, null]],
+    [[null, null], [null, null]],
+    [[null, null]],
+    [[null, null]]
   ], [         /* FINALS */
-    [[1, 2]]
+    [[null, null]]
   ]]
 }
 

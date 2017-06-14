@@ -3303,7 +3303,8 @@
 			-ms-transition: opacity 0.2s ease;
 			transition: opacity 0.2s ease;
 			height: inherit;
-			left: 1.25em;
+			left: 50%;
+			transform: translate(-50%, 0);
 			line-height: inherit;
 			position: absolute;
 			top: 0;
@@ -3845,3 +3846,107 @@
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+	/* floater */
+
+		#floater {
+			/*padding: 6em 0 4em 0 ;*/
+			background-color: #1d242a;
+			text-align: center;
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			height: 2em;
+		}
+
+			#floater .icons {
+				font-size: 1.25em;
+			}
+
+				#floater .icons a {
+					color: #808080;
+				}
+
+					#floater .icons a:hover {
+						color: #fff;
+					}
+
+			#floater .copyright {
+				color: #808080;
+				font-size: 0.4em;
+				list-style: none;
+				padding: 1em;
+				line-height: 1em;
+				vertical-align: middle;
+				text-transform: uppercase;
+			}
+
+				#floater .copyright li {
+					border-left: solid 1px #808080;
+					display: inline-block;
+
+				}
+
+					#floater .copyright li:first-child {
+						border-left: 0;
+						margin-left: 0;
+						padding-left: 0;
+					}
+
+					#floater .copyright li a {
+						color: inherit;
+					}
+
+						#floater .copyright li a:hover {
+							color: #808080;
+						}
+
+					@media screen and (max-width: 480px) {
+
+						#floater .copyright li {
+							border: 0;
+							display: block;
+							margin: 0;
+						}
+
+					}
+
+			@media screen and (max-width: 980px) {
+
+				#floater {
+					/*padding: 4em 3em 2em 3em ;*/
+					position: fixed;
+					bottom: 0;
+					left: 0;
+					right: 0;
+					height: 1em;
+				}
+
+			}
+
+			@media screen and (max-width: 736px) {
+
+				#floater {
+					/*padding: 3em 2em 1em 2em ;*/
+					position: fixed;
+					bottom: 0;
+					left: 0;
+					right: 0;
+					height: 1em;
+				}
+
+			}
+
+		body.landing #floater {
+			background-color: rgba(29, 36, 42, 0.9);
+		}
+
+		body.is-mobile.landing #floater {
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			height: 1.5em;
+			background-color: #1d242a;
+		}

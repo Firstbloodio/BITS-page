@@ -3303,7 +3303,8 @@
 			-ms-transition: opacity 0.2s ease;
 			transition: opacity 0.2s ease;
 			height: inherit;
-			left: 1.25em;
+			left: 50%;
+			transform: translate(-50%, 0);
 			line-height: inherit;
 			position: absolute;
 			top: 0;

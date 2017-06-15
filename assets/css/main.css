@@ -3971,10 +3971,17 @@
 		}
 
 		/* bracket */
-		#bracket {
-
-		}
-
 		.label {
 			text-align: center;
 		}
+
+	/* iframe */
+
+	iframe {
+    width: 80vw;
+    height: 50vw; /* 100/56.25 = 560/315 = 1.778 */
+		max-height: 25.321em;
+    background:black;
+	}
+
+

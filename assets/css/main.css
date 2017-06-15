@@ -3950,3 +3950,16 @@
 			height: 1.5em;
 			background-color: #1d242a;
 		}
+
+	/* iframe */
+
+	iframe {
+    width: 80vw;
+    height: 50vw; /* 100/56.25 = 560/315 = 1.778 */
+		max-height: 25.321em;
+    background:black;
+	}
+
+	.label {
+		text-align: center;
+	}

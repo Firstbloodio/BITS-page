@@ -3984,4 +3984,7 @@
     background:black;
 	}
 
-
+ 	/* Sponsor */
+	#sponsor {
+		border-bottom: 0;
+	}

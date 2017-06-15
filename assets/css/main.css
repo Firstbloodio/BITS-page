@@ -3755,6 +3755,7 @@
 		#footer .copyright {
 			color: rgba(255, 255, 255, 0.9);
 			font-size: 0.9em;
+			line-height: 125%;
 			letter-spacing: 0.225em;
 			list-style: none;
 			padding: 0;
@@ -3797,6 +3798,16 @@
 
 		@media screen and (max-width: 980px) {
 
+			#bracket {
+
+				display: none;
+			}
+
+			.bracket {
+				display: none;
+
+			}
+
 			#footer {
 				padding: 4em 3em 2em 3em ;
 			}
@@ -3804,6 +3815,13 @@
 		}
 
 		@media screen and (max-width: 736px) {
+			#bracket {
+				display: none;
+			}
+
+			.bracket {
+				display: none;
+			}
 
 			#footer {
 				padding: 3em 2em 1em 2em ;
@@ -3877,9 +3895,10 @@
 				font-size: 0.4em;
 				list-style: none;
 				padding: 1em;
-				line-height: 1em;
+				line-height: 1.2em;
 				vertical-align: middle;
 				text-transform: uppercase;
+				min-height: 130px;
 			}
 
 				#floater .copyright li {
@@ -3951,6 +3970,11 @@
 			background-color: #1d242a;
 		}
 
+		/* bracket */
+		.label {
+			text-align: center;
+		}
+
 	/* iframe */
 
 	iframe {
@@ -3960,6 +3984,4 @@
     background:black;
 	}
 
-	.label {
-		text-align: center;
-	}
+

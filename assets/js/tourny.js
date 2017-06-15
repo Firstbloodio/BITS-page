@@ -2,10 +2,10 @@
 
 var bigData = {
   teams : [
-    [{name: "PDG",flag: "pg"},  {name:"EPG", flag: "ep"}],
-    [{name: "DB" ,flag: "db"},  {name:"GBE", flag: "ge"}],
-    [{name: "CND" ,flag: "co"},  {name:"SGT",flag: "ts"}],
-    [{name: "CA",flag: "ca"},  {name:"M19", flag:'m19'}],
+    [{name: "PD",flag: "pg"},  {name:"EPG", flag: "ep"}],
+    [{name: "DB" ,flag: "db"},  {name:"GMB", flag: "ge"}],
+    [{name: "CSD" ,flag: "co"},  {name:"SNG",flag: "ts"}],
+    [{name: "ANJ",flag: "ca"},  {name:"M19", flag:'m19'}],
   ],
   results : [[ /* WINNER BRACKET */
     [[2, 0], [null, null], [0, 2], [2, 0]],

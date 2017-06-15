@@ -3983,3 +3983,8 @@
 		max-height: 25.321em;
     background:black;
 	}
+
+ 	/* Sponsor */
+	#sponsor {
+		border-bottom: 0;
+	}

@@ -2,10 +2,10 @@
 
 var bigData = {
   teams : [
-    [{name: "ProDotA",flag: "pg"},  {name:"Elements Pro", flag: "ep"}],
-    [{name: "Danish Bears" ,flag: "db"},  {name:"Gambit", flag: "ge"}],
-    [{name: "Crescendo" ,flag: "co"},  {name:"Singularity",flag: "ts"}],
-    [{name: "Cyber Anji",flag: "ca"},  {name:"M19", flag:'m19'}],
+    [{name: "PDG",flag: "pg"},  {name:"EPG", flag: "ep"}],
+    [{name: "DB" ,flag: "db"},  {name:"GBE", flag: "ge"}],
+    [{name: "CND" ,flag: "co"},  {name:"SGT",flag: "ts"}],
+    [{name: "CA",flag: "ca"},  {name:"M19", flag:'m19'}],
   ],
   results : [[ /* WINNER BRACKET */
     [[2, 0], [null, null], [0, 2], [2, 0]],
@@ -36,7 +36,9 @@ var qulifierData = {
 
 $(function() {
   $('#bracket').bracket({
-    teamWidth: 145,
+    teamWidth: 80,
+    matchMargin: 30,
+    roundMargin: 25,
     init: bigData,
     skipConsolationRound: true,
     skipSecondaryFinal: true,

@@ -3969,3 +3969,12 @@
 			height: 1.5em;
 			background-color: #1d242a;
 		}
+
+		/* bracket */
+		#bracket {
+
+		}
+
+		.label {
+			text-align: center;
+		}

@@ -9,7 +9,7 @@ var bigData = {
   ],
   results : [[ /* WINNER BRACKET */
     [[2, 0], [1, 2], [0, 2], [2, 0]],
-    [[null, null], [null, null]],
+    [[1, 2], [null, null]],
     [[null, null]]
   ], [         /* LOSER BRACKET */
     [[null, null], [null, null]],

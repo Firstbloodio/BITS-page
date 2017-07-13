@@ -9,11 +9,11 @@ var bigData = {
   ],
   results : [[ /* WINNER BRACKET */
     [[2, 0], [1, 2], [0, 2], [2, 0]],
-    [[1, 2], [null, null]],
-    [[null, null]]
+    [[1, 2], [1, 2]],
+    [[2, 0]]
   ], [         /* LOSER BRACKET */
-    [[null, null], [null, null]],
-    [[null, null], [null, null]],
+    [[0, 1], [2, 0]],
+    [[2, 1], [0, 2]],
     [[null, null]],
     [[null, null]]
   ], [         /* FINALS */

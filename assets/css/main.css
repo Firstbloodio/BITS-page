@@ -1731,7 +1731,7 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			box-shadow: 0 0 0 2px #C00000;
+			box-shadow: 0 0 0 2px #952a1b;
 		}
 
 	.select-wrapper {
@@ -1842,7 +1842,7 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			box-shadow: 0 0 0 2px #C00000;
+			box-shadow: 0 0 0 2px #952a1b;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2674,7 +2674,7 @@
 		}
 
 		.wrapper.style1 {
-			background-color: #C00000;
+			background-color: #952a1b;
 			color: #ffffff;
 		}
 
@@ -2739,7 +2739,7 @@
 			.wrapper.style1 input[type="checkbox"]:checked + label:before,
 			.wrapper.style1 input[type="radio"]:checked + label:before {
 				background: #ffffff;
-				color: #C00000;
+				color: #952a1b;
 			}
 
 			.wrapper.style1 ::-webkit-input-placeholder {
@@ -2832,7 +2832,7 @@
 		}
 
 		.wrapper.style3 {
-			background-color: #C00000;
+			background-color: #952a1b;
 			color: #ffffff;
 		}
 
@@ -3193,7 +3193,7 @@
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #C00000;
+		background: #952a1b;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;

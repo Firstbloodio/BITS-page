@@ -1,0 +1,507 @@
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+{
+
+    .main-info-container {
+        min-width: 0 !important;
+        width: 85% !important;
+    }
+
+    .card {
+        max-width: 45%;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .bp-logo, .roccat-logo, .purse-logo {
+        height: 105px !important;
+        width: 25% !important;
+        background-size: contain !important;
+    }
+
+    .content-row.sponsors {
+        padding-bottom: 40px !important;
+    }
+
+    .footer-info {
+        width: 97% !important;
+    }
+
+    .social-accounts {
+        width: 47% !important;
+    }
+
+    .content-row.teams {
+        padding-top: 20px;
+    }
+
+    .teams {
+        margin: 30px 0 0 !important;
+    }
+
+    .disclaimer {
+        height: auto !important;
+        padding: 15px 20%;
+        line-height: 12px !important;
+    }
+}
+
+
+@media only screen
+and (max-device-width: 767px)
+{
+
+    /* top info */
+
+    .banner {
+        background-color: rgba(22, 5, 2, 0.9);
+        align-items: center;
+    }
+
+    .fb-logo {
+        display: none;
+    }
+
+    .nav { display: none }
+
+    .menu-lines {
+        display: flex !important;
+        flex-direction: column;
+        height: 27px;
+        justify-content: space-between;
+        margin-right: 10px;
+    }
+
+    .menu-line {
+        height: 5px;
+        width: 40px;
+        border-radius: 2px;
+        background-color: #FFF;
+    }
+
+    .headline-text {
+        width: 310px !important;
+        height: 43px !important;
+        background-size: 310px !important;
+        margin: auto !important;
+    }
+
+    .bits-badge {
+        display: none;
+    }
+
+    .headline-info {
+        margin: 50px auto  0 !important;
+    }
+
+    .headline-date {
+        font-size: 9.6px !important;
+    }
+
+    .headline-description {
+        font-size: 12px !important;
+    }
+
+    .bottom-info {
+        top: 195px !important;
+        height: 170px !important;
+    }
+
+    .action-buttons {
+        flex-direction: column;
+        width: auto !important;
+    }
+
+    .or {
+        margin: 5px;
+    }
+
+    /* main-info */
+
+    .main-info-container {
+        min-width: 0 !important;
+        width: 90% !important;
+    }
+
+    .sponsor-list {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100% !important;
+        max-width: 364px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .content-row.teams {
+        order: 1;
+    }
+
+    .content-row.organiser {
+        order: 2;
+    }
+
+    .organiser-info-left {
+        display: none !important;
+    }
+
+    .organiser-info-right {
+        margin: 0 !important;
+        height: auto !important;
+        width: auto !important;
+    }
+
+    .fb-logo-mobile {
+        background: url(./images/bitsII/IMG_logo_Firstblood_Corner.png) no-repeat right;
+        width: 300px;
+        height: 26px !important;
+    }
+
+    .organiser-info {
+        flex-direction: column;
+    }
+    
+    .site-link.mobile {
+        visibility: visible !important;
+        margin-top: 30px;
+    }
+
+    .teams {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .footer-info {
+        flex-direction: column;
+        width: 94% !important;
+    }
+
+    .social-accounts {
+        margin-left: 0 !important;
+        margin-top: 18px;
+        width: 100% !important;
+    }
+
+    .disclaimer {
+        height: auto !important;
+        padding: 15px 20px;
+        line-height: 12px !important;
+    }
+
+    .gleam-modal {
+        padding: 15px 15px !important;
+    }
+
+    #gleam-iframe {
+        height: 425px !important;
+    }
+
+}
+
+/*@media only screen*/
+/*and (min-device-width: 375px)*/
+/*and (max-device-width: 667px) {*/
+
+    /*!* top info *!*/
+
+    /*.banner {*/
+        /*background-color: rgba(22, 5, 2, 0.9);*/
+        /*align-items: center;*/
+    /*}*/
+
+    /*.fb-logo {*/
+        /*display: none;*/
+    /*}*/
+
+    /*.nav { display: none }*/
+
+    /*.menu-lines {*/
+        /*display: flex !important;*/
+        /*flex-direction: column;*/
+        /*height: 27px;*/
+        /*justify-content: space-between;*/
+        /*margin-right: 10px;*/
+    /*}*/
+
+    /*.menu-line {*/
+        /*height: 5px;*/
+        /*width: 40px;*/
+        /*border-radius: 2px;*/
+        /*background-color: #FFF;*/
+    /*}*/
+
+    /*.headline-text {*/
+        /*width: 310px !important;*/
+        /*height: 43px !important;*/
+        /*background-size: 310px !important;*/
+        /*margin: auto !important;*/
+    /*}*/
+
+    /*.bits-badge {*/
+        /*display: none;*/
+    /*}*/
+
+    /*.headline-info {*/
+        /*margin: 50px auto  0 !important;*/
+    /*}*/
+
+    /*.headline-date {*/
+        /*font-size: 9.6px !important;*/
+    /*}*/
+
+    /*.headline-description {*/
+        /*font-size: 12px !important;*/
+    /*}*/
+
+    /*.bottom-info {*/
+        /*top: 195px !important;*/
+        /*height: 170px !important;*/
+    /*}*/
+
+    /*.action-buttons {*/
+        /*flex-direction: column;*/
+        /*width: auto !important;*/
+    /*}*/
+
+    /*.or {*/
+        /*margin: 5px;*/
+    /*}*/
+
+    /*!* main-info *!*/
+
+    /*.main-info-container {*/
+        /*min-width: 0 !important;*/
+        /*width: 90% !important;*/
+    /*}*/
+
+    /*.sponsor-list {*/
+        /*flex-direction: column;*/
+    /*}*/
+
+    /*.card {*/
+        /*width: 100% !important;*/
+    /*}*/
+
+
+    /*.content-row.teams {*/
+        /*order: 1;*/
+    /*}*/
+
+    /*.content-row.organiser {*/
+        /*order: 2;*/
+    /*}*/
+
+    /*.organiser-info-left {*/
+        /*display: none !important;*/
+    /*}*/
+
+    /*.organiser-info-right {*/
+        /*margin: 0 !important;*/
+        /*height: auto !important;*/
+        /*width: auto !important;*/
+    /*}*/
+
+    /*.fb-logo-mobile {*/
+        /*background: url(./images/bitsII/IMG_logo_Firstblood_Corner.png) no-repeat right;*/
+        /*width: 300px;*/
+        /*height: 26px !important;*/
+    /*}*/
+
+    /*.organiser-info {*/
+        /*flex-direction: column;*/
+    /*}*/
+
+    /*.site-link.mobile {*/
+        /*visibility: visible !important;*/
+        /*margin-top: 30px;*/
+    /*}*/
+
+    /*.teams {*/
+        /*margin-left: 0 !important;*/
+        /*margin-right: 0 !important;*/
+    /*}*/
+
+    /*.footer-info {*/
+        /*flex-direction: column;*/
+        /*width: 94% !important;*/
+    /*}*/
+
+    /*.social-accounts {*/
+        /*margin-left: 0 !important;*/
+        /*margin-top: 18px;*/
+        /*width: 100% !important;*/
+    /*}*/
+
+    /*.disclaimer {*/
+        /*height: auto !important;*/
+        /*padding: 15px 20px;*/
+        /*line-height: 12px !important;*/
+    /*}*/
+
+    /*.gleam-modal {*/
+        /*padding: 15px 15px !important;*/
+    /*}*/
+
+    /*#gleam-iframe {*/
+        /*height: 425px !important;*/
+    /*}*/
+
+
+/*}*/
+
+/*@media only screen*/
+/*and (min-device-width: 320px)*/
+/*and (max-device-width: 568px)*/
+/*{*/
+
+    /*!* top info *!*/
+
+    /*.banner {*/
+        /*background-color: rgba(22, 5, 2, 0.9);*/
+        /*align-items: center;*/
+    /*}*/
+
+    /*.fb-logo {*/
+        /*display: none;*/
+    /*}*/
+
+    /*.nav { display: none }*/
+
+    /*.menu-lines {*/
+        /*display: flex !important;*/
+        /*flex-direction: column;*/
+        /*height: 27px;*/
+        /*justify-content: space-between;*/
+        /*margin-right: 10px;*/
+    /*}*/
+
+    /*.menu-line {*/
+        /*height: 5px;*/
+        /*width: 40px;*/
+        /*border-radius: 2px;*/
+        /*background-color: #FFF;*/
+    /*}*/
+
+    /*.headline-text {*/
+        /*width: 310px !important;*/
+        /*height: 43px !important;*/
+        /*background-size: 310px !important;*/
+        /*margin: auto !important;*/
+    /*}*/
+
+    /*.bits-badge {*/
+        /*display: none;*/
+    /*}*/
+
+    /*.headline-info {*/
+        /*margin: 50px auto  0 !important;*/
+    /*}*/
+
+    /*.headline-date {*/
+        /*font-size: 9.6px !important;*/
+    /*}*/
+
+    /*.headline-description {*/
+        /*font-size: 12px !important;*/
+    /*}*/
+
+    /*.bottom-info {*/
+        /*top: 195px !important;*/
+        /*height: 170px !important;*/
+    /*}*/
+
+    /*.action-buttons {*/
+        /*flex-direction: column;*/
+        /*width: auto !important;*/
+    /*}*/
+
+    /*.or {*/
+        /*margin: 5px;*/
+    /*}*/
+
+    /*!* main-info *!*/
+
+    /*.main-info-container {*/
+        /*min-width: 0 !important;*/
+        /*width: 90% !important;*/
+    /*}*/
+
+    /*.sponsor-list {*/
+        /*flex-direction: column;*/
+    /*}*/
+
+    /*.card {*/
+        /*width: 100% !important;*/
+    /*}*/
+
+
+    /*.content-row.teams {*/
+        /*order: 1;*/
+    /*}*/
+
+    /*.content-row.organiser {*/
+        /*order: 2;*/
+    /*}*/
+
+    /*.organiser-info-left {*/
+        /*display: none !important;*/
+    /*}*/
+
+    /*.organiser-info-right {*/
+        /*margin: 0 !important;*/
+        /*height: auto !important;*/
+        /*width: auto !important;*/
+    /*}*/
+
+    /*.fb-logo-mobile {*/
+        /*background: url(./images/bitsII/IMG_logo_Firstblood_Corner.png) no-repeat right;*/
+        /*width: 300px;*/
+        /*height: 26px !important;*/
+    /*}*/
+
+    /*.organiser-info {*/
+        /*flex-direction: column;*/
+    /*}*/
+
+    /*.site-link.mobile {*/
+        /*visibility: visible !important;*/
+        /*margin-top: 30px;*/
+    /*}*/
+
+    /*.teams {*/
+        /*margin-left: 0 !important;*/
+        /*margin-right: 0 !important;*/
+    /*}*/
+
+    /*.footer-info {*/
+        /*flex-direction: column;*/
+        /*width: 94% !important;*/
+    /*}*/
+
+    /*.social-accounts {*/
+        /*margin-left: 0 !important;*/
+        /*margin-top: 18px;*/
+        /*width: 100% !important;*/
+    /*}*/
+
+    /*.disclaimer {*/
+        /*height: auto !important;*/
+        /*padding: 15px 20px;*/
+        /*line-height: 12px !important;*/
+    /*}*/
+
+    /*.gleam-modal {*/
+        /*padding: 15px 15px !important;*/
+    /*}*/
+
+    /*#gleam-iframe {*/
+        /*height: 425px !important;*/
+    /*}*/
+
+
+/*}*/
+
+

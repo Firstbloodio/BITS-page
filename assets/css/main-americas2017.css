@@ -552,6 +552,10 @@ iframe, #loading-text {
     color: #885E55;
     font-size: 9px;
     text-align: center;
+
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
 

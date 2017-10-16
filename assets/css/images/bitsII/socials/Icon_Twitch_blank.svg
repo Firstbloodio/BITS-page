@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="34px" viewBox="0 0 32 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon_Twitch_blank</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="BITS_Landing_Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BITS_2017_Images" transform="translate(-218.000000, -837.000000)">
+            <g id="Icon_Twitch_blank" transform="translate(218.000000, 836.000000)">
+                <rect id="Rectangle-18" fill="#D8D8D8" opacity="0" x="0" y="0" width="33" height="36"></rect>
+                <g id="Controller" transform="translate(0.000000, 1.000000)" fill-rule="nonzero" fill="#FFFFFF">
+                    <g id="Group">
+                        <path d="M22.5626159,28.614325 L15.7938311,28.614325 L12.4094387,33.0165288 L7.89691555,33.0165288 L7.89691555,28.614325 L0,28.614325 L0,5.6128099 L2.25626159,0 L31.5876622,0 L31.5876622,19.8099173 L22.5626159,28.614325 Z M28.2032698,18.7093663 L28.2032698,3.30165288 L4.51252317,3.30165288 L4.51252317,24.2121211 L11.2813079,24.2121211 L11.2813079,28.614325 L15.7938311,24.2121211 L22.5626159,24.2121211 L28.2032698,18.7093663 Z" id="Dialog"></path>
+                        <rect id="_x7C_" x="18.1868358" y="8.48996455" width="3.82880754" height="9.43329394"></rect>
+                        <rect id="_x7C__2_" x="11.4864226" y="8.48996455" width="3.82880754" height="9.43329394"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

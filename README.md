@@ -44,7 +44,12 @@ Access the directory that you cloned this git in
     
 Serve the website
 
-    $ http-server    
+    $ http-server
+
+
+Development
+
+    $ gulp serve
    
 Load from local browser
 

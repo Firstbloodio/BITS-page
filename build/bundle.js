@@ -14361,6 +14361,18 @@ var componentCreator = require('./components');
 
 $(document).ready(function(){
 
+    $(window).bind( 'hashchange', function(e) {
+        var anchor = document.location.hash;
+        if( anchor === '#one' ) {
+
+        } else if ( anchor === '#two' ) {
+
+        } else if ( anchor === '#three' ) {
+
+        }
+        console.log(anchor);
+    });
+
     var eventTime = moment("12/16/2017 9:00", "M/D/YYYY H:mm").unix();
     var currentTime = moment.now();
 
@@ -14409,6 +14421,16 @@ $(document).ready(function(){
         $('html, body').animate({
             scrollTop: $("#vote-section").offset().top
         }, 1000);
+    });
+
+
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        if (scroll >= 25) {
+            $(".banner").addClass("dark");
+        } else {
+            $(".banner").removeClass("dark");
+        }
     });
 
 

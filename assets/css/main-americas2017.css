@@ -19,6 +19,10 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 .hidden {
     display: none !important;
 }
@@ -148,6 +152,14 @@ iframe, #loading-text {
     -ms-flex-pack: justify;
     justify-content: space-between;
     width: 100%;
+    position: fixed;
+    z-index: 1000;
+    transition: all 0.5s ease;
+}
+
+.banner.dark{
+    background-color: rgba(22, 5, 2, 0.9);
+    transition: all 0.5s ease;
 }
 
 .bits-logo {
@@ -498,7 +510,7 @@ iframe, #loading-text {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding: 50px 0;
+    padding: 50px 0 80px;
     width: 63%;
     max-width: 476px;
     order: 5;

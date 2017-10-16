@@ -27,6 +27,7 @@ and (max-device-width: 1024px)
 
     .footer-info {
         width: 97% !important;
+        padding-bottom: 50px !important;
     }
 
     .social-accounts {
@@ -61,6 +62,7 @@ and (max-device-width: 767px)
     .banner {
         background-color: rgba(22, 5, 2, 0.9);
         align-items: center;
+        position: absolute !important;
     }
 
     .fb-logo {
@@ -180,6 +182,7 @@ and (max-device-width: 767px)
     .footer-info {
         flex-direction: column;
         width: 94% !important;
+        padding-bottom: 50px !important;
     }
 
     .social-accounts {

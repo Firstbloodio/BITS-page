@@ -154,7 +154,7 @@ iframe, #loading-text {
     justify-content: space-between;
     width: 100%;
     position: fixed;
-    z-index: 1000;
+    z-index: 500;
     transition: all 0.5s ease;
 }
 
@@ -308,6 +308,10 @@ iframe, #loading-text {
     -ms-flex-pack: justify;
     justify-content: space-between;
     width: 527px;
+}
+
+a.action-button {
+    color: #FFF;
 }
 
 .action-button {

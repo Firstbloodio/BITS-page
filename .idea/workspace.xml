@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5467bed4-d8ea-4c80-962d-e2cd05858a56" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/data/teams.json" afterPath="$PROJECT_DIR$/assets/data/teams.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main-americas2017.css" afterPath="$PROJECT_DIR$/assets/css/main-americas2017.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,13 +20,13 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="86" column="14" lean-forward="true" selection-start-line="86" selection-start-column="14" selection-end-line="86" selection-end-column="14" />
+            <state relative-caret-position="697">
+              <caret line="110" column="14" lean-forward="true" selection-start-line="110" selection-start-column="14" selection-end-line="110" selection-end-column="14" />
               <folding>
                 <element signature="e#61#68#0" expanded="true" />
                 <element signature="e#81#88#0" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#8466#8472#0" expanded="true" />
+                <element signature="e#8667#8673#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,21 +85,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="teams.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="teams.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/data/teams.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+            <state relative-caret-position="360">
+              <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main-americas2017.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main-americas2017.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/main-americas2017.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="517">
-              <caret line="644" column="0" lean-forward="true" selection-start-line="644" selection-start-column="0" selection-end-line="644" selection-end-column="0" />
+              <caret line="313" column="16" lean-forward="false" selection-start-line="313" selection-start-column="16" selection-end-line="313" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -139,7 +137,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>footer-info</find>
       <find>.fb-logo</find>
       <find>.site</find>
       <find>min-w</find>
@@ -164,10 +161,11 @@
       <find>.footer</find>
       <find>gRFDK</find>
       <find>visi</find>
-      <find>.banner</find>
       <find>menu-l</find>
       <find>vote</find>
       <find>.ca</find>
+      <find>.banner</find>
+      <find>.action-</find>
       <find>Regis</find>
     </findStrings>
   </component>
@@ -183,10 +181,10 @@
         <option value="$PROJECT_DIR$/assets/css/mobile.css" />
         <option value="$PROJECT_DIR$/rules.html" />
         <option value="$PROJECT_DIR$/assets/js/app.js" />
-        <option value="$PROJECT_DIR$/assets/css/main-americas2017.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/assets/data/teams.json" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/css/main-americas2017.css" />
       </list>
     </option>
   </component>
@@ -308,12 +306,12 @@
       <workItem from="1507731016980" duration="59084000" />
       <workItem from="1508065058275" duration="4942000" />
       <workItem from="1508087301065" duration="961000" />
-      <workItem from="1508135622585" duration="7786000" />
+      <workItem from="1508135622585" duration="8619000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74797000" />
+    <option name="totallyTimeSpent" value="75630000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -356,7 +354,7 @@
             <element signature="e#61#68#0" expanded="true" />
             <element signature="e#81#88#0" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#8466#8472#0" expanded="true" />
+            <element signature="e#8667#8673#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -369,7 +367,7 @@
             <element signature="e#61#68#0" expanded="true" />
             <element signature="e#81#88#0" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#8466#8472#0" expanded="true" />
+            <element signature="e#8667#8673#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -443,7 +441,7 @@
             <element signature="e#61#68#0" expanded="true" />
             <element signature="e#81#88#0" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#8466#8472#0" expanded="true" />
+            <element signature="e#8667#8673#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -694,27 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/main-americas2017.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="644" column="0" lean-forward="true" selection-start-line="644" selection-start-column="0" selection-end-line="644" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="86" column="14" lean-forward="true" selection-start-line="86" selection-start-column="14" selection-end-line="86" selection-end-column="14" />
-          <folding>
-            <element signature="e#61#68#0" expanded="true" />
-            <element signature="e#81#88#0" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#8466#8472#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
@@ -725,8 +702,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/data/teams.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        <state relative-caret-position="360">
+          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="110" column="14" lean-forward="true" selection-start-line="110" selection-start-column="14" selection-end-line="110" selection-end-column="14" />
+          <folding>
+            <element signature="e#61#68#0" expanded="true" />
+            <element signature="e#81#88#0" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#8667#8673#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/main-americas2017.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="313" column="16" lean-forward="false" selection-start-line="313" selection-start-column="16" selection-end-line="313" selection-end-column="16" />
           <folding />
         </state>
       </provider>

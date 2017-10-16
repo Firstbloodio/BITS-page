@@ -54,7 +54,7 @@
           content="An 8 team double-elimination Dota 2™ tournament with a $5,000 prize pool (1st $2500, 2nd $1500, 3rd $1000). 7 invited teams and 1 team selected through the People's Choice Qualifiers.">
     <meta name="twitter:image" content="https://bits.firstblood.io/images/banner.jpg">
 
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans"/>
 
 </head>
 <body class="bits-voting">
@@ -87,9 +87,9 @@
         </div>
     </div>
     <!--<div class="mobile-menu hidden">-->
-        <!--<a class="mobile-nav overview">OVERVIEW & VOTING</a>-->
-        <!--&lt;!&ndash;<a class="mobile-nav brackets">BRACKETS & SCHEDULE</a>&ndash;&gt;-->
-        <!--<a href="rules.html" class="mobile-nav rules">RULES</a>-->
+    <!--<a class="mobile-nav overview">OVERVIEW & VOTING</a>-->
+    <!--&lt;!&ndash;<a class="mobile-nav brackets">BRACKETS & SCHEDULE</a>&ndash;&gt;-->
+    <!--<a href="rules.html" class="mobile-nav rules">RULES</a>-->
     <!--</div>-->
     <div class="header-gradient"></div>
     <div class="header-shapes"></div>
@@ -105,11 +105,14 @@
 
     <div class="bottom-info">
         <div class="action-buttons">
-            <div class="action-button register">REGISTER TEAM</div>
+            <a href="https://firstbloodio.typeform.com/to/iFKkWF" target="_blank" data-mode="popup" class="action-button register">REGISTER TEAM</a>
             <div class="or">or</div>
             <div id="vote-button" class="action-button transparent">VOTE FOR TEAM</div>
         </div>
-        <div class="countdown"><span id="countdown-desc">Registration closes in:</span> <span id="countdown-days">00</span>D: <span id="countdown-hours">00</span>H: <span id="countdown-minutes">00</span>M</div>
+        <div class="countdown"><span id="countdown-desc">Registration closes in:</span> <span
+                id="countdown-days">00</span>D: <span id="countdown-hours">00</span>H: <span
+                id="countdown-minutes">00</span>M
+        </div>
     </div>
 </div>
 <div class="main-info">
@@ -125,16 +128,20 @@
         <div class="content-row organiser">
             <div class="title-mobile">
                 <div class="title">ORGANISER</div>
-                <div class = "fb-logo-mobile"></div>
+                <div class="fb-logo-mobile"></div>
             </div>
             <div class="organiser-info">
                 <div class="organiser-info-left">
                     <div class="fb-logo-lg"></div>
                     <a href="http://firstblood.io" target="_blank" class="site-link">Visit firstblood.io</a>
                 </div>
-                <div class="organiser-info-right"><div class="organiser-info-desc">The first competitive esports company to be powered by blockchain
-                    technology. We plan to give the power back to the players while providing the fastest way to deliver
-                    your hard earned winnings to your wallet! Welcome to Firstblood, the future of competitive gaming.</div>
+                <div class="organiser-info-right">
+                    <div class="organiser-info-desc">The first competitive esports company to be powered by blockchain
+                        technology. We plan to give the power back to the players while providing the fastest way to
+                        deliver
+                        your hard earned winnings to your wallet! Welcome to Firstblood, the future of competitive
+                        gaming.
+                    </div>
                 </div>
 
                 <a href="http://firstblood.io" target="_blank" class="site-link mobile">Visit firstblood.io</a>
@@ -143,7 +150,7 @@
         <div id="vote-section" class="content-row teams">
             <div class="title">REGISTERED TEAMS</div>
             <div class="no-team">NO TEAMS REGISTERED YET</div>
-            <div id ="teams-in-grid" class="teams"></div>
+            <div id="teams-in-grid" class="teams"></div>
 
             <div class="grid-separator">
                 <div class="class-desc">TEAMS IN</div>
@@ -151,12 +158,12 @@
                 <div class="class-desc">TEAMS OUT</div>
             </div>
 
-            <div id ="teams-out-grid" class="teams">
+            <div id="teams-out-grid" class="teams">
             </div>
         </div>
 
         <div id="ex1" style="display:none;">
-            <p>Thanks for clicking.  That felt good.  <a href="#" rel="modal:close">Close</a> or press ESC</p>
+            <p>Thanks for clicking. That felt good. <a href="#" rel="modal:close">Close</a> or press ESC</p>
         </div>
 
         <div class="footer-info">
@@ -169,12 +176,26 @@
             </div>
         </div>
     </div>
-    <div class="disclaimer">FIRSTBLOOD™ IS NOT AFFILIATED, AUTHORIZED, LICENSED, OR ENDORSED BY DOTA™, DOTA 2™, OR VALVE CORPORATION.DOTA™, DOTA 2™, THE DOTA LOGO® AND STEAM™ ARE TRADEMARKS OF VALVE CORPORATION.</div>
+    <div class="disclaimer">FIRSTBLOOD™ IS NOT AFFILIATED, AUTHORIZED, LICENSED, OR ENDORSED BY DOTA™, DOTA 2™, OR VALVE
+        CORPORATION.DOTA™, DOTA 2™, THE DOTA LOGO® AND STEAM™ ARE TRADEMARKS OF VALVE CORPORATION.
+    </div>
 </div>
 
 <!-- Scripts -->
 <script src="build/bundle.js"></script>
 <script type="text/javascript" src="https://js.gleam.io/e.js" async="true"></script>
+
+<script> (function () {
+    var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName,
+        id = "typef_orm_share", b = "https://embed.typeform.com/";
+    if (!gi.call(d, id)) {
+        js = ce.call(d, "script");
+        js.id = id;
+        js.src = b + "embed.js";
+        q = gt.call(d, "script")[0];
+        q.parentNode.insertBefore(js, q)
+    }
+})() </script>
 
 </body>
 </html>

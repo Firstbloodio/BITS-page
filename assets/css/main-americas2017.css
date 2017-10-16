@@ -436,22 +436,25 @@ a.action-button {
     align-items: center;
 }
 
-.roccat-logo {
-    background: url(./images/bitsII/IMG_Logo_Roccat.png) no-repeat center;
-    height: 60px;
-    width: 220px;
+.antlion-logo {
+    background: url(./images/bitsII/IMG_Logo_AntlionAudio.png) no-repeat center;
+    height: 75px;
+    width: 138px;
+    cursor: pointer;
 }
 
 .bp-logo {
     background: url(./images/bitsII/IMG_Logo_BPatch.png) no-repeat center;
     height: 105px;
     width: 213px;
+    cursor: pointer;
 }
 
 .purse-logo {
     background: url(./images/bitsII/IMG_Logo_Purse.png) no-repeat center;
     width: 173px;
     height: 60px;
+    cursor: pointer;
 }
 
 .organiser-info {
@@ -737,22 +740,3 @@ a.action-button {
     line-height: 19px;
     text-align: right;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

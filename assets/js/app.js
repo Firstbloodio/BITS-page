@@ -26,7 +26,7 @@ $(document).ready(function(){
         console.log(anchor);
     });
 
-    var eventTime = moment("12/16/2017 9:00", "M/D/YYYY H:mm").unix();
+    var eventTime = moment("11/29/2017 23:59", "M/D/YYYY H:mm").unix();
     var currentTime = moment.now();
 
     var diff = moment.duration(currentTime - eventTime);
@@ -107,5 +107,3 @@ $(document).ready(function(){
 
 
 });
-
-

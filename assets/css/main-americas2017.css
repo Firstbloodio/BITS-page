@@ -431,10 +431,10 @@ iframe, #loading-text {
     align-items: center;
 }
 
-.roccat-logo {
-    background: url(./images/bitsII/IMG_Logo_Roccat.png) no-repeat center;
-    height: 60px;
-    width: 220px;
+.antlion-logo {
+    background: url(./images/bitsII/IMG_Logo_AntlionAudio.png) no-repeat center;
+    height: 75px;
+    width: 138px;
 }
 
 .bp-logo {
@@ -732,22 +732,3 @@ iframe, #loading-text {
     line-height: 19px;
     text-align: right;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

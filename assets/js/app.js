@@ -26,10 +26,10 @@ $(document).ready(function(){
         console.log(anchor);
     });
 
-    var eventTime = moment("12/16/2017 9:00", "M/D/YYYY H:mm").unix();
+    var eventTime = moment("10/29/2017 23:59", "M/D/YYYY H:mm").unix()*1000;
     var currentTime = moment.now();
 
-    var diff = moment.duration(currentTime - eventTime);
+    var diff = moment.duration(eventTime - currentTime);
 
     var days = diff.days();
     var hours = diff.hours();

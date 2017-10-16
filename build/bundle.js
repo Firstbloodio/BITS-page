@@ -14319,7 +14319,7 @@ module.exports=[
     "team": "Leviathan",
     "gleamID": "pUyWi/vote-for-leviathan-bits-americas-2017",
     "country": "US",
-    "avatar": "assets/css/images/header-shapes-image.png"
+    "avatar": "assets/css/images/team_logos/leviathan.png"
   },
   {
     "team": "VGJ.Storm",
@@ -14342,10 +14342,17 @@ module.exports=[
   {
     "team": "Mad Kings",
     "gleamID": "z755W/vote-for-mad-kings-bits-americas-2017",
+    "country": "PE",
+    "avatar": "assets/css/images/header-shapes-image.png"
+  },
+  {
+    "team": "Wheel Wreck While Whistling",
+    "gleamID": "tichk/vote-for-wheel-wreck-while-whistling-bits-americas-2017",
     "country": "US",
     "avatar": "assets/css/images/header-shapes-image.png"
   }
 ]
+
 },{}],3:[function(require,module,exports){
 require('jquery-modal');
 

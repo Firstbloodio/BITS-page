@@ -14340,9 +14340,9 @@ module.exports=[
     "avatar": "assets/css/images/header-shapes-image.png"
   },
   {
-    "team": "Leviathan",
-    "gleamID": "pUyWi/vote-for-leviathan-bits-americas-2017",
-    "country": "VN",
+    "team": "Mad Kings",
+    "gleamID": "https://gleam.io/z755W/vote-for-mad-kings-bits-americas-2017",
+    "country": "US",
     "avatar": "assets/css/images/header-shapes-image.png"
   }
 ]

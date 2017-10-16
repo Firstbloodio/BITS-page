@@ -71,6 +71,38 @@ and (max-device-width: 767px)
 
     .nav { display: none }
 
+    .mobile-menu {
+        height: 100%;
+        background-color: #7F3426;
+        width: 100%;
+        position: absolute;
+        z-index: 1000;
+        top: 60px;
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .mobile-menu a {
+        color: #FFFFFF !important;
+    }
+
+    .mobile-nav {
+        font-size: 18px;
+        padding: 25px 50px;
+    }
+
+    .mobile-nav.overview {
+        border-bottom: 1px solid rgba(0, 0, 0, 1);
+        margin-top: 40px;
+    }
+
+    .mobile-nav.brackets {
+        border-bottom: 1px solid rgba(0, 0, 0, 1);
+    }
+
     .menu-lines {
         display: flex !important;
         flex-direction: column;

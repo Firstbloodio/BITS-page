@@ -14361,6 +14361,8 @@ var componentCreator = require('./components');
 
 $(document).ready(function(){
 
+    var mobileMenuOpen = false;
+
     $(window).bind( 'hashchange', function(e) {
         var anchor = document.location.hash;
         if( anchor === '#one' ) {
@@ -14421,6 +14423,23 @@ $(document).ready(function(){
         $('html, body').animate({
             scrollTop: $("#vote-section").offset().top
         }, 1000);
+    });
+
+    if (mobileMenuOpen) {
+        $(".mobile-menu").removeClass('hidden');
+    } else {
+        $(".mobile-menu").addClass('hidden');
+    }
+
+    $(".menu-lines").click(function() {
+        if(!mobileMenuOpen) {
+            $(".mobile-menu").removeClass('hidden');
+            mobileMenuOpen = true;
+        } else {
+            $(".mobile-menu").addClass('hidden');
+            mobileMenuOpen = false;
+        }
+
     });
 
 

@@ -14325,31 +14325,55 @@ module.exports=[
     "team": "VGJ.Storm",
     "gleamID": "eoTH4/vote-for-vgjstorm-bits-americas-2017",
     "country": "US",
-    "avatar": "assets/css/images/header-shapes-image.png"
+    "avatar": "assets/css/images/team_logos/VGJ_Storm.png"
   },
   {
     "team": "Blue Pikachu",
     "gleamID": "aX3lW/vote-for-blue-pikachu-bits-americas-2017",
     "country": "US",
-    "avatar": "assets/css/images/header-shapes-image.png"
+    "avatar": "assets/css/images/team_logos/blue_pikachu.png"
   },
   {
     "team": "Team Morty",
     "gleamID": "gRFDK/vote-for-team-morty-bits-americas-2017",
     "country": "US",
-    "avatar": "assets/css/images/header-shapes-image.png"
+    "avatar": "assets/css/images/team_logos/team_morty.png"
   },
   {
     "team": "Mad Kings",
     "gleamID": "z755W/vote-for-mad-kings-bits-americas-2017",
     "country": "PE",
-    "avatar": "assets/css/images/header-shapes-image.png"
+    "avatar": "assets/css/images/team_logos/mad_kings.png"
   },
   {
-    "team": "Wheel Wreck While Whistling",
+    "team": "Wheel Wreck",
     "gleamID": "tichk/vote-for-wheel-wreck-while-whistling-bits-americas-2017",
     "country": "US",
-    "avatar": "assets/css/images/header-shapes-image.png"
+    "avatar": "assets/css/images/team_logos/wheel_wreck.png"
+  },
+  {
+    "team": "Rats & Bunnies",
+    "gleamID": "Ai5E4/vote-for-rats-and-bunnies-bits-americas-2017",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/rats_and_bunnies.png"
+  },
+  {
+    "team": "Anthrax",
+    "gleamID": "aOxeQ/vote-for-anthrax-bits-americas-2017",
+    "country": "BO",
+    "avatar": "assets/css/images/team_logos/anthrax.png"
+  },
+  {
+    "team": "PMA For the Win",
+    "gleamID": "Gv9XU/vote-for-pma-ftw-bits-americas-2017",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/PMA.png"
+  },
+  {
+    "team": "Elite Wolves",
+    "gleamID": "3CsWd/vote-for-elite-wolves-bits-americas-2017",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/elite_wolves.png"
   }
 ]
 

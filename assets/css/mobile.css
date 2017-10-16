@@ -3,6 +3,10 @@
 and (min-device-width: 768px)
 and (max-device-width: 1024px)
 {
+    .banner {
+        position: absolute !important;
+        background-color: transparent !important;
+    }
 
     .main-info-container {
         min-width: 0 !important;
@@ -235,9 +239,11 @@ and (max-device-width: 767px)
         padding: 15px 15px !important;
     }
 
-    #gleam-iframe {
-        height: 425px !important;
+    iframe, #loading-text {
+        width: 320px !important;
     }
+
+
 
 }
 

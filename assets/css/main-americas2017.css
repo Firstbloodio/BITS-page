@@ -154,7 +154,7 @@ iframe, #loading-text {
     justify-content: space-between;
     width: 100%;
     position: fixed;
-    z-index: 1000;
+    z-index: 500;
     transition: all 0.5s ease;
 }
 
@@ -310,6 +310,10 @@ iframe, #loading-text {
     width: 527px;
 }
 
+a.action-button {
+    color: #FFF;
+}
+
 .action-button {
     height: 50px;
     width: 245px;
@@ -431,22 +435,25 @@ iframe, #loading-text {
     align-items: center;
 }
 
-.roccat-logo {
-    background: url(./images/bitsII/IMG_Logo_Roccat.png) no-repeat center;
-    height: 60px;
-    width: 220px;
+.antlion-logo {
+    background: url(./images/bitsII/IMG_Logo_AntlionAudio.png) no-repeat center;
+    height: 75px;
+    width: 138px;
+    cursor: pointer;
 }
 
 .bp-logo {
     background: url(./images/bitsII/IMG_Logo_BPatch.png) no-repeat center;
     height: 105px;
     width: 213px;
+    cursor: pointer;
 }
 
 .purse-logo {
     background: url(./images/bitsII/IMG_Logo_Purse.png) no-repeat center;
     width: 173px;
     height: 60px;
+    cursor: pointer;
 }
 
 .organiser-info {
@@ -732,22 +739,3 @@ iframe, #loading-text {
     line-height: 19px;
     text-align: right;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

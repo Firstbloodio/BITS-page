@@ -85,11 +85,12 @@ h2 {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    height: 90%;
 }
 
 iframe, #loading-text {
-    width: 320px;
-    height: 735px;
+    width: 360px;
+    height: 100%;
 }
 
 #loading-text {

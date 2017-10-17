@@ -14392,6 +14392,12 @@ module.exports=[
     "gleamID": "B1HES/vote-for-sage-network-bits-americas-2017",
     "country": "SA",
     "avatar": "assets/css/images/team_logos/sage.jpg"
+  },
+  {
+    "team": "Savage Magikarps",
+    "gleamID": "MGX5K/vote-for-savage-magikarps-bits-americas-2017",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/savage_magikarps.jpg"
   }
 ]
 

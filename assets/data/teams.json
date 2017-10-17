@@ -62,19 +62,19 @@
   {
     "team": "G-Pride",
     "gleamID": "pkG6D/vote-for-gpride-bits-na-2017",
-    "country": "US",
+    "country": "PE",
     "avatar": "assets/css/images/team_logos/gpride.jpg"
   },
   {
     "team": "SuperDoraemon",
     "gleamID": "otGjj/vote-for-team-superdoraemon-bits-americas-2017",
-    "country": "NA",
+    "country": "US",
     "avatar": "assets/css/images/team_logos/SD.jpg"
   },
   {
     "team": "Sage Network",
     "gleamID": "B1HES/vote-for-sage-network-bits-americas-2017",
-    "country": "NA",
+    "country": "SA",
     "avatar": "assets/css/images/team_logos/sage.jpg"
   }
 ]

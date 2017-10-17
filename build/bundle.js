@@ -14398,6 +14398,12 @@ module.exports=[
     "gleamID": "MGX5K/vote-for-savage-magikarps-bits-americas-2017",
     "country": "CR",
     "avatar": "assets/css/images/team_logos/savage_magikarps.jpg"
+  },
+  {
+    "team": "Mind's Eye",
+    "gleamID": "2dOwF/vote-for-minds-eye-bits-americas-2017",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/minds_eye.jpg"
   }
 ]
 

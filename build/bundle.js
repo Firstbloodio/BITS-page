@@ -14372,7 +14372,7 @@ module.exports=[
   {
     "team": "Elite Wolves",
     "gleamID": "3CsWd/vote-for-elite-wolves-bits-americas-2017",
-    "country": "US",
+    "country": "PE",
     "avatar": "assets/css/images/team_logos/elite_wolves.png"
   },
   {

@@ -64,9 +64,21 @@ $(document).ready(function(){
         $('.grid-separator').addClass('hidden'); //temp
 
         componentCreator.processTeams(teams);
+
         $('.vote-button').click(function () {
             var id = $(this)[0].id;
-            componentCreator.createGleamModal(id);
+            
+            if ($(window).width() < 768) {
+                $(this).addClass('e-widget generic-loader');
+                var index = teams.findIndex(function(team) {
+                    return team.gleamID === id.toString();
+                });
+                var teamLink =  teams[index].gleamID;
+                $(this).attr('href', 'https://gleam.io/'+ teamLink);
+                $(this).attr('target', '_blank');
+            } else {
+                componentCreator.createGleamModal(id);
+            }
         });
     }
 

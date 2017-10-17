@@ -14450,9 +14450,21 @@ $(document).ready(function(){
         $('.grid-separator').addClass('hidden'); //temp
 
         componentCreator.processTeams(teams);
+
         $('.vote-button').click(function () {
             var id = $(this)[0].id;
-            componentCreator.createGleamModal(id);
+            
+            if ($(window).width() < 768) {
+                $(this).addClass('e-widget generic-loader');
+                var index = teams.findIndex(function(team) {
+                    return team.gleamID === id.toString();
+                });
+                var teamLink =  teams[index].gleamID;
+                $(this).attr('href', 'https://gleam.io/'+ teamLink);
+                $(this).attr('target', '_blank');
+            } else {
+                componentCreator.createGleamModal(id);
+            }
         });
     }
 
@@ -14511,7 +14523,7 @@ module.exports = componentsCreator = {
             '                        <div class="team-name">' + data.team +'</div>\n' +
             '                    </div>\n' +
             '                    <div class="team-card-vote">\n' +
-            '                        <div id="'+ data.gleamID +'" class="vote-button">VOTE</div>\n' +
+            '                        <a id="'+ data.gleamID +'" class="vote-button">VOTE</a>\n' +
             // '                        <div class="votes">Votes: <span>'+ data.votes +'</span></div>\n' +
             '                    </div>\n' +
             '                </div>'

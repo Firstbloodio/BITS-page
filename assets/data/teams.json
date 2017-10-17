@@ -3,66 +3,78 @@
     "team": "Leviathan",
     "gleamID": "pUyWi/vote-for-leviathan-bits-americas-2017",
     "country": "US",
-    "avatar": "assets/css/images/team_logos/leviathan.png"
+    "avatar": "assets/css/images/team_logos/leviathan.jpg"
   },
   {
     "team": "VGJ.Storm",
     "gleamID": "eoTH4/vote-for-vgjstorm-bits-americas-2017",
     "country": "US",
-    "avatar": "assets/css/images/team_logos/VGJ_Storm.png"
+    "avatar": "assets/css/images/team_logos/VGJ_Storm.jpg"
   },
   {
     "team": "Blue Pikachu",
     "gleamID": "aX3lW/vote-for-blue-pikachu-bits-americas-2017",
     "country": "US",
-    "avatar": "assets/css/images/team_logos/blue_pikachu.png"
+    "avatar": "assets/css/images/team_logos/blue_pikachu.jpg"
   },
   {
     "team": "Team Morty",
     "gleamID": "gRFDK/vote-for-team-morty-bits-americas-2017",
     "country": "US",
-    "avatar": "assets/css/images/team_logos/team_morty.png"
+    "avatar": "assets/css/images/team_logos/team_morty.jpg"
   },
   {
     "team": "Mad Kings",
     "gleamID": "z755W/vote-for-mad-kings-bits-americas-2017",
     "country": "PE",
-    "avatar": "assets/css/images/team_logos/mad_kings.png"
+    "avatar": "assets/css/images/team_logos/mad_kings.jpg"
   },
   {
     "team": "Wheel Wreck",
     "gleamID": "tichk/vote-for-wheel-wreck-while-whistling-bits-americas-2017",
     "country": "US",
-    "avatar": "assets/css/images/team_logos/wheel_wreck.png"
+    "avatar": "assets/css/images/team_logos/wheel_wreck.jpg"
   },
   {
     "team": "Rats & Bunnies",
     "gleamID": "Ai5E4/vote-for-rats-and-bunnies-bits-americas-2017",
     "country": "US",
-    "avatar": "assets/css/images/team_logos/rats_and_bunnies.png"
+    "avatar": "assets/css/images/team_logos/rats_and_bunnies.jpg"
   },
   {
     "team": "Anthrax",
     "gleamID": "aOxeQ/vote-for-anthrax-bits-americas-2017",
     "country": "BO",
-    "avatar": "assets/css/images/team_logos/anthrax.png"
+    "avatar": "assets/css/images/team_logos/anthrax.jpg"
   },
   {
     "team": "PMA For the Win",
     "gleamID": "Gv9XU/vote-for-pma-ftw-bits-americas-2017",
     "country": "US",
-    "avatar": "assets/css/images/team_logos/PMA.png"
+    "avatar": "assets/css/images/team_logos/PMA.jpg"
   },
   {
     "team": "Elite Wolves",
     "gleamID": "3CsWd/vote-for-elite-wolves-bits-americas-2017",
     "country": "PE",
-    "avatar": "assets/css/images/team_logos/elite_wolves.png"
+    "avatar": "assets/css/images/team_logos/elite_wolves.jpg"
   },
   {
     "team": "G-Pride",
     "gleamID": "pkG6D/vote-for-gpride-bits-na-2017",
     "country": "US",
-    "avatar": "assets/css/images/team_logos/gpride.png"
+    "avatar": "assets/css/images/team_logos/gpride.jpg"
+  },
+  {
+    "team": "SuperDoraemon",
+    "gleamID": "otGjj/vote-for-team-superdoraemon-bits-americas-2017",
+    "country": "NA",
+    "avatar": "assets/css/images/team_logos/SD.jpg"
+  },
+  {
+    "team": "Sage Network",
+    "gleamID": "B1HES/vote-for-sage-network-bits-americas-2017",
+    "country": "NA",
+    "avatar": "assets/css/images/team_logos/sage.jpg"
   }
 ]

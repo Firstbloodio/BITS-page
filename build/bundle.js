@@ -14374,6 +14374,12 @@ module.exports=[
     "gleamID": "3CsWd/vote-for-elite-wolves-bits-americas-2017",
     "country": "US",
     "avatar": "assets/css/images/team_logos/elite_wolves.png"
+  },
+  {
+    "team": "G-Pride",
+    "gleamID": "pkG6D/vote-for-gpride-bits-na-2017",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/gpride.png"
   }
 ]
 

@@ -674,7 +674,7 @@ a.action-button {
     justify-content: space-between;
     height: 40px;
     margin-left: 15px;
-    width: 75%;
+    flex-grow: 1;
 }
 
 .country-flag {

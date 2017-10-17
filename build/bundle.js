@@ -14396,7 +14396,7 @@ module.exports=[
   {
     "team": "Savage Magikarps",
     "gleamID": "MGX5K/vote-for-savage-magikarps-bits-americas-2017",
-    "country": "US",
+    "country": "CR",
     "avatar": "assets/css/images/team_logos/savage_magikarps.jpg"
   }
 ]

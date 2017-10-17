@@ -14404,6 +14404,12 @@ module.exports=[
     "gleamID": "2dOwF/vote-for-minds-eye-bits-americas-2017",
     "country": "US",
     "avatar": "assets/css/images/team_logos/minds_eye.jpg"
+  },
+  {
+    "team": "Luccini Gaming",
+    "gleamID": "6QOPn/vote-for-luccini-gaming-bits-americas-2017",
+    "country": "PE",
+    "avatar": "assets/css/images/team_logos/luccini.jpg"
   }
 ]
 

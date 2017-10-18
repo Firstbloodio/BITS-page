@@ -14504,6 +14504,14 @@ module.exports=[
     "gleamID": "aeUJk/voter-for-fury-bits-americas-2017",
     "country": "US",
     "avatar": "assets/css/images/team_logos/fury.jpg",
+    "date": "2017-10-18 at 06:22 US ET",
+    "votes": 0
+  },
+  {
+    "team": "Troll Team",
+    "gleamID": "DIgOl/vote-for-troll-team-bits-americas-2017",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/trollteam.jpg",
     "date": "2017-10-18 at 09:12 US ET",
     "votes": 0
   }

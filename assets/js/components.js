@@ -1,14 +1,11 @@
 var $ = require('jquery');
 var teams = require('../data/teams.json');
 
-
-
 module.exports = componentsCreator = {
 
-    createTeamCard: function(data, index) {
-
+    createTeamCard: function(data) {
         return (
-            '    <div class="card tooltip" data-tooltip-content="#tooltip_team_' + index + '">\n' +
+            '    <div class="card">\n' +
             '                    <img class="avatar" src="'+ data.avatar +'">\n' +
             '                    <div class="team-card-info">\n' +
             '                        <div class="country-flag ' + data.country + '"></div>\n' +
@@ -56,27 +53,10 @@ module.exports = componentsCreator = {
 
     processTeams: function(teams) {
 
-        teams.sort(function(a, b) {
-            return b.votes - a.votes;
-        });
-
         for (i = 0; i < teams.length; i++) {
             var data = teams[i];
-            $('#teams-in-grid').append(this.createTeamCard(data, i));
-
-            var position = 1 + i;
-
-            $('.tooltip_templates').append(
-                '<span id ="tooltip_team_' + i + '">' +
-                ' <div class="tooltip-card">' +
-                    '<div class="team-entry-date">'+ data.date + '</div>' +
-                '    <div class="team-votes-position">' +
-                '       <div><span>Votes: </span>'+ data.votes +'</div>' +
-                '       <div><span>Position: </span>'+ position +'</div>' +
-                '   </div>' +
-                '</div>' +
-                ' </span> '
-            )
+            data.votes = 36; //  we will need to add ajax call in createTeamCard - webhook from gleam to our server
+            $('#teams-in-grid').append(this.createTeamCard(data));
 
             // will use this script when webhook is added to get total votes
             // if(i >= 8) {
@@ -85,11 +65,6 @@ module.exports = componentsCreator = {
             //     $('#teams-in-grid').append(this.createTeamCard(data));
             // }
         }
-
-        $('.tooltip').tooltipster({
-            side: "bottom",
-            theme: 'tooltipster-shadow'
-        });
     }
 };
 

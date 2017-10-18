@@ -1,6 +1,7 @@
+require('jquery-modal');
+
 var $ = require('jquery');
 var moment = require('moment');
-require('../../tooltipster');
 
 
 var countries = require('../data/countries.json');
@@ -24,8 +25,6 @@ $(document).ready(function(){
         }
         console.log(anchor);
     });
-
-    /* setting up the timer */
 
     var eventTime = moment("10/29/2017 23:59", "M/D/YYYY H:mm").unix()*1000;
     var currentTime = moment.now();
@@ -57,7 +56,6 @@ $(document).ready(function(){
     }, 60000);
 
 
-    /* initialise the teams */
 
     if (teams.length > 0) {
 
@@ -90,9 +88,6 @@ $(document).ready(function(){
         }, 1000);
     });
 
-
-    /* setting state for mobile menu */
-
     if (mobileMenuOpen) {
         $(".mobile-menu").removeClass('hidden');
     } else {
@@ -110,8 +105,6 @@ $(document).ready(function(){
 
     });
 
-    /* scroll down to vote */
-
 
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();
@@ -121,6 +114,10 @@ $(document).ready(function(){
             $(".banner").removeClass("dark");
         }
     });
+
+
+
+
 });
 
 

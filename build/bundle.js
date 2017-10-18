@@ -14458,6 +14458,14 @@ module.exports=[
     "avatar": "assets/css/images/team_logos/fundador.jpg",
     "date": "2017-10-17 at 22:28 US ET",
     "votes": 0
+  },
+  {
+    "team": "Sector X",
+    "gleamID": "07pef/vote-for-sector-x-bits-americas-2017",
+    "country": "SA",
+    "avatar": "assets/css/images/team_logos/sectorx.jpg",
+    "date": "2017-10-18 at 00:16 US ET",
+    "votes": 0
   }
 ]
 

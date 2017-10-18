@@ -14474,6 +14474,14 @@ module.exports=[
     "avatar": "assets/css/images/team_logos/blackdragon.jpg",
     "date": "2017-10-18 at 59:50 US ET",
     "votes": 0
+  },
+  {
+    "team": "PizzaDog",
+    "gleamID": "w46od/vote-for-pizzadog-bits-americas-2017",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/pizzadog.jpg",
+    "date": "2017-10-18 at 01:17 US ET",
+    "votes": 0
   }
 ]
 

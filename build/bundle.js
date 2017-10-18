@@ -14414,7 +14414,7 @@ module.exports=[
   {
     "team": "Sage Network",
     "gleamID": "B1HES/vote-for-sage-network-bits-americas-2017",
-    "country": "SA",
+    "country": "BO",
     "avatar": "assets/css/images/team_logos/sage.jpg",
     "date": "11/3/2017 at 14:00 CET",
     "votes": 5800
@@ -14442,6 +14442,22 @@ module.exports=[
     "avatar": "assets/css/images/team_logos/luccini.jpg",
     "date": "11/3/2017 at 14:00 CET",
     "votes": 6250
+  },
+  {
+    "team": "Reveng Esports",
+    "gleamID": "KEVQX/vote-for-revenge-esports-bits-americas-2017",
+    "country": "PE",
+    "avatar": "assets/css/images/team_logos/revenge.jpg",
+    "date": "2017-10-17 at 21:33 US ET",
+    "votes": 0
+  },
+  {
+    "team": "Fundador",
+    "gleamID": "d0GN3/vote-for-team-fundador-bits-americas-2017",
+    "country": "SA",
+    "avatar": "assets/css/images/team_logos/fundador.jpg",
+    "date": "2017-10-17 at 22:28 US ET",
+    "votes": 0
   }
 ]
 

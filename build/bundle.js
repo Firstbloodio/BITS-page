@@ -14466,6 +14466,14 @@ module.exports=[
     "avatar": "assets/css/images/team_logos/sectorx.jpg",
     "date": "2017-10-18 at 00:16 US ET",
     "votes": 0
+  },
+  {
+    "team": "Black Dragon",
+    "gleamID": "E44Qe/vote-for-black-dragon-bits-americas-2017",
+    "country": "SA",
+    "avatar": "assets/css/images/team_logos/blackdragon.jpg",
+    "date": "2017-10-18 at 59:50 US ET",
+    "votes": 0
   }
 ]
 

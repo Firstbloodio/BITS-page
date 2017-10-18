@@ -62,7 +62,11 @@ module.exports = componentsCreator = {
 
         for (i = 0; i < teams.length; i++) {
             var data = teams[i];
-            $('#teams-in-grid').append(this.createTeamCard(data, i));
+            if(i >= 8) {
+                $('#teams-out-grid').append(this.createTeamCard(data, i));
+            } else {
+                $('#teams-in-grid').append(this.createTeamCard(data, i));
+            }
 
             var position = 1 + i;
 
@@ -78,12 +82,7 @@ module.exports = componentsCreator = {
                 ' </span> '
             )
 
-            // will use this script when webhook is added to get total votes
-            // if(i >= 8) {
-            //     $('#teams-out-grid').append(this.createTeamCard(data));
-            // } else {
-            //     $('#teams-in-grid').append(this.createTeamCard(data));
-            // }
+
         }
 
         $('.tooltip').tooltipster({

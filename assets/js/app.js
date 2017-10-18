@@ -63,7 +63,7 @@ $(document).ready(function(){
 
         $('.no-team').addClass('hidden');
 
-        $('.grid-separator').addClass('hidden'); //temp
+        // $('.grid-separator').addClass('hidden'); //temp
 
         componentCreator.processTeams(teams);
 

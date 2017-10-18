@@ -15,8 +15,51 @@
     src: url('../fonts/korolev-bold-webfont.ttf');
 }
 
+/*-- tooltip ---*/
+
 .tooltip_templates {
     display: none;
+}
+
+.tooltip-card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 80px;
+    font-family: "Open Sans";
+}
+
+.team-entry-date {
+    padding: 10px 1px 10px 2px;
+    border-bottom: 1px solid #9F6960;
+    color: #DA8775;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.team-votes-position {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 1px 10px 2px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.team-votes-position span {
+    font-size: 11px;
+}
+
+.teams-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.teams-header-content {
+    width: 75%;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
 }
 
 body {
@@ -745,44 +788,5 @@ a.action-button {
     text-align: right;
 }
 
-.tooltip-card {
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    height: 80px;
-    font-family: "Open Sans";
-}
 
-.team-entry-date {
-    padding: 10px 1px 10px 2px;
-    border-bottom: 1px solid #9F6960;
-    color: #DA8775;
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 1px;
-}
-
-.team-votes-position {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 1px 10px 2px;
-    font-size: 16px;
-    font-weight: 600;
-    letter-spacing: 1px;
-}
-
-.team-votes-position span {
-    font-size: 11px;
-}
-
-.teams-header {
-    display: flex;
-    justify-content: space-between;
-}
-
-.teams-header-content {
-    width: 75%;
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 14px;
-}
 

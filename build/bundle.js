@@ -14320,7 +14320,7 @@ module.exports=[
     "gleamID": "pUyWi/vote-for-leviathan-bits-americas-2017",
     "country": "US",
     "avatar": "assets/css/images/team_logos/leviathan.jpg",
-    "date": "11/3/2017 at 14:00 CET",
+    "date": "11/3/2017 at 14:00 US ET",
     "votes": 7925
   },
   {
@@ -14328,7 +14328,7 @@ module.exports=[
     "gleamID": "eoTH4/vote-for-vgjstorm-bits-americas-2017",
     "country": "US",
     "avatar": "assets/css/images/team_logos/VGJ_Storm.jpg",
-    "date": "11/3/2017 at 14:00 CET",
+    "date": "11/3/2017 at 14:00 US ET",
     "votes": 18375
   },
   {
@@ -14336,7 +14336,7 @@ module.exports=[
     "gleamID": "aX3lW/vote-for-blue-pikachu-bits-americas-2017",
     "country": "US",
     "avatar": "assets/css/images/team_logos/blue_pikachu.jpg",
-    "date": "11/3/2017 at 14:00 CET",
+    "date": "11/3/2017 at 14:00 US ET",
     "votes": 19850
   },
   {
@@ -14344,7 +14344,7 @@ module.exports=[
     "gleamID": "gRFDK/vote-for-team-morty-bits-americas-2017",
     "country": "US",
     "avatar": "assets/css/images/team_logos/team_morty.jpg",
-    "date": "11/3/2017 at 14:00 CET",
+    "date": "11/3/2017 at 14:00 US ET",
     "votes": 450
   },
   {
@@ -14352,7 +14352,7 @@ module.exports=[
     "gleamID": "z755W/vote-for-mad-kings-bits-americas-2017",
     "country": "PE",
     "avatar": "assets/css/images/team_logos/mad_kings.jpg",
-    "date": "11/3/2017 at 14:00 CET",
+    "date": "11/3/2017 at 14:00 US ET",
     "votes": 28825
   },
   {
@@ -14360,7 +14360,7 @@ module.exports=[
     "gleamID": "tichk/vote-for-wheel-wreck-while-whistling-bits-americas-2017",
     "country": "US",
     "avatar": "assets/css/images/team_logos/wheel_wreck.jpg",
-    "date": "11/3/2017 at 14:00 CET",
+    "date": "11/3/2017 at 14:00 US ET",
     "votes": 1425
   },
   {
@@ -14368,7 +14368,7 @@ module.exports=[
     "gleamID": "Ai5E4/vote-for-rats-and-bunnies-bits-americas-2017",
     "country": "US",
     "avatar": "assets/css/images/team_logos/rats_and_bunnies.jpg",
-    "date": "11/3/2017 at 14:00 CET",
+    "date": "11/3/2017 at 14:00 US ET",
     "votes": 0
   },
   {
@@ -14376,7 +14376,7 @@ module.exports=[
     "gleamID": "aOxeQ/vote-for-anthrax-bits-americas-2017",
     "country": "BO",
     "avatar": "assets/css/images/team_logos/anthrax.jpg",
-    "date": "11/3/2017 at 14:00 CET",
+    "date": "11/3/2017 at 14:00 US ET",
     "votes": 400
   },
   {
@@ -14384,7 +14384,7 @@ module.exports=[
     "gleamID": "Gv9XU/vote-for-pma-ftw-bits-americas-2017",
     "country": "US",
     "avatar": "assets/css/images/team_logos/PMA.jpg",
-    "date": "11/3/2017 at 14:00 CET",
+    "date": "11/3/2017 at 14:00 US ET",
     "votes": 75
   },
   {
@@ -14392,7 +14392,7 @@ module.exports=[
     "gleamID": "3CsWd/vote-for-elite-wolves-bits-americas-2017",
     "country": "PE",
     "avatar": "assets/css/images/team_logos/elite_wolves.jpg",
-    "date": "11/3/2017 at 14:00 CET",
+    "date": "11/3/2017 at 14:00 US ET",
     "votes": 42700
   },
   {
@@ -14400,7 +14400,7 @@ module.exports=[
     "gleamID": "pkG6D/vote-for-gpride-bits-na-2017",
     "country": "PE",
     "avatar": "assets/css/images/team_logos/gpride.jpg",
-    "date": "11/3/2017 at 14:00 CET",
+    "date": "11/3/2017 at 14:00 US ET",
     "votes": 5075
   },
   {
@@ -14408,7 +14408,7 @@ module.exports=[
     "gleamID": "otGjj/vote-for-team-superdoraemon-bits-americas-2017",
     "country": "US",
     "avatar": "assets/css/images/team_logos/SD.jpg",
-    "date": "11/3/2017 at 14:00 CET",
+    "date": "11/3/2017 at 14:00 US ET",
     "votes": 1525
   },
   {
@@ -14416,7 +14416,7 @@ module.exports=[
     "gleamID": "B1HES/vote-for-sage-network-bits-americas-2017",
     "country": "BO",
     "avatar": "assets/css/images/team_logos/sage.jpg",
-    "date": "11/3/2017 at 14:00 CET",
+    "date": "11/3/2017 at 14:00 US ET",
     "votes": 5800
   },
   {
@@ -14424,7 +14424,7 @@ module.exports=[
     "gleamID": "MGX5K/vote-for-savage-magikarps-bits-americas-2017",
     "country": "CR",
     "avatar": "assets/css/images/team_logos/savage_magikarps.jpg",
-    "date": "11/3/2017 at 14:00 CET",
+    "date": "11/3/2017 at 14:00 US ET",
     "votes": 1475
   },
   {
@@ -14432,7 +14432,7 @@ module.exports=[
     "gleamID": "2dOwF/vote-for-minds-eye-bits-americas-2017",
     "country": "US",
     "avatar": "assets/css/images/team_logos/minds_eye.jpg",
-    "date": "11/3/2017 at 14:00 CET",
+    "date": "11/3/2017 at 14:00 US ET",
     "votes": 10675
   },
   {
@@ -14440,7 +14440,7 @@ module.exports=[
     "gleamID": "6QOPn/vote-for-luccini-gaming-bits-americas-2017",
     "country": "PE",
     "avatar": "assets/css/images/team_logos/luccini.jpg",
-    "date": "11/3/2017 at 14:00 CET",
+    "date": "11/3/2017 at 14:00 US ET",
     "votes": 6250
   },
   {

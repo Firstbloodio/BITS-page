@@ -243,6 +243,15 @@ and (max-device-width: 767px)
         width: 320px !important;
     }
 
+    .teams-header {
+        flex-direction: column;
+        height: 105px;
+    }
+
+    .teams-header-content {
+        width: auto !important;
+    }
+
 
 
 }

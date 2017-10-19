@@ -14454,7 +14454,7 @@ module.exports=[
   {
     "team": "Fundador",
     "gleamID": "d0GN3/vote-for-team-fundador-bits-americas-2017",
-    "country": "SA",
+    "country": "PE",
     "avatar": "assets/css/images/team_logos/fundador.jpg",
     "date": "2017-10-17 at 22:28 US ET",
     "votes": 0
@@ -14462,7 +14462,7 @@ module.exports=[
   {
     "team": "Sector X",
     "gleamID": "07pef/vote-for-sector-x-bits-americas-2017",
-    "country": "SA",
+    "country": "PE",
     "avatar": "assets/css/images/team_logos/sectorx.jpg",
     "date": "2017-10-18 at 00:16 US ET",
     "votes": 0
@@ -14470,7 +14470,7 @@ module.exports=[
   {
     "team": "Black Dragon",
     "gleamID": "E44Qe/vote-for-black-dragon-bits-americas-2017",
-    "country": "SA",
+    "country": "PE",
     "avatar": "assets/css/images/team_logos/blackdragon.jpg",
     "date": "2017-10-18 at 59:50 US ET",
     "votes": 0

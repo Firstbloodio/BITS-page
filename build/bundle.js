@@ -14322,7 +14322,7 @@ module.exports=[
     "country": "US",
     "avatar": "assets/css/images/team_logos/leviathan.jpg",
     "date": "11/3/2017 at 14:00 US ET",
-    "votes": 7925
+    "votes": 9450
   },
   {
     "team": "VGJ.Storm",
@@ -14331,7 +14331,7 @@ module.exports=[
     "country": "US",
     "avatar": "assets/css/images/team_logos/VGJ_Storm.jpg",
     "date": "11/3/2017 at 14:00 US ET",
-    "votes": 18375
+    "votes": 19350
   },
   {
     "team": "Blue Pikachu",
@@ -14340,7 +14340,7 @@ module.exports=[
     "country": "US",
     "avatar": "assets/css/images/team_logos/blue_pikachu.jpg",
     "date": "11/3/2017 at 14:00 US ET",
-    "votes": 19850
+    "votes": 22150
   },
   {
     "team": "Team Morty",
@@ -14349,7 +14349,7 @@ module.exports=[
     "country": "US",
     "avatar": "assets/css/images/team_logos/team_morty.jpg",
     "date": "11/3/2017 at 14:00 US ET",
-    "votes": 450
+    "votes": 1375
   },
   {
     "team": "Mad Kings",
@@ -14358,7 +14358,7 @@ module.exports=[
     "country": "PE",
     "avatar": "assets/css/images/team_logos/mad_kings.jpg",
     "date": "11/3/2017 at 14:00 US ET",
-    "votes": 28825
+    "votes": 31825
   },
   {
     "team": "Wheel Wreck",
@@ -14367,7 +14367,7 @@ module.exports=[
     "country": "US",
     "avatar": "assets/css/images/team_logos/wheel_wreck.jpg",
     "date": "11/3/2017 at 14:00 US ET",
-    "votes": 1425
+    "votes": 2100
   },
   {
     "team": "Rats & Bunnies",
@@ -14376,7 +14376,7 @@ module.exports=[
     "country": "US",
     "avatar": "assets/css/images/team_logos/rats_and_bunnies.jpg",
     "date": "11/3/2017 at 14:00 US ET",
-    "votes": 0
+    "votes": 375
   },
   {
     "team": "Anthrax",
@@ -14385,7 +14385,7 @@ module.exports=[
     "country": "BO",
     "avatar": "assets/css/images/team_logos/anthrax.jpg",
     "date": "11/3/2017 at 14:00 US ET",
-    "votes": 400
+    "votes": 4025
   },
   {
     "team": "PMA For the Win",
@@ -14394,7 +14394,7 @@ module.exports=[
     "country": "US",
     "avatar": "assets/css/images/team_logos/PMA.jpg",
     "date": "11/3/2017 at 14:00 US ET",
-    "votes": 75
+    "votes": 375
   },
   {
     "team": "Elite Wolves",
@@ -14403,7 +14403,7 @@ module.exports=[
     "country": "PE",
     "avatar": "assets/css/images/team_logos/elite_wolves.jpg",
     "date": "11/3/2017 at 14:00 US ET",
-    "votes": 42700
+    "votes": 54250
   },
   {
     "team": "G-Pride",
@@ -14412,7 +14412,7 @@ module.exports=[
     "country": "PE",
     "avatar": "assets/css/images/team_logos/gpride.jpg",
     "date": "11/3/2017 at 14:00 US ET",
-    "votes": 5075
+    "votes": 17450
   },
   {
     "team": "SuperDoraemon",
@@ -14421,7 +14421,7 @@ module.exports=[
     "country": "US",
     "avatar": "assets/css/images/team_logos/SD.jpg",
     "date": "11/3/2017 at 14:00 US ET",
-    "votes": 1525
+    "votes": 5225
   },
   {
     "team": "Sage Network",
@@ -14430,7 +14430,7 @@ module.exports=[
     "country": "BO",
     "avatar": "assets/css/images/team_logos/sage.jpg",
     "date": "11/3/2017 at 14:00 US ET",
-    "votes": 5800
+    "votes": 15125
   },
   {
     "team": "Savage Magikarps",
@@ -14439,7 +14439,7 @@ module.exports=[
     "country": "CR",
     "avatar": "assets/css/images/team_logos/savage_magikarps.jpg",
     "date": "11/3/2017 at 14:00 US ET",
-    "votes": 1475
+    "votes": 2000
   },
   {
     "team": "Mind's Eye",
@@ -14448,7 +14448,7 @@ module.exports=[
     "country": "US",
     "avatar": "assets/css/images/team_logos/minds_eye.jpg",
     "date": "11/3/2017 at 14:00 US ET",
-    "votes": 10675
+    "votes": 13075
   },
   {
     "team": "Luccini Gaming",
@@ -14457,7 +14457,7 @@ module.exports=[
     "country": "PE",
     "avatar": "assets/css/images/team_logos/luccini.jpg",
     "date": "11/3/2017 at 14:00 US ET",
-    "votes": 6250
+    "votes": 10225
   },
   {
     "team": "Reveng Esports",
@@ -14466,7 +14466,7 @@ module.exports=[
     "country": "PE",
     "avatar": "assets/css/images/team_logos/revenge.jpg",
     "date": "2017-10-17 at 21:33 US ET",
-    "votes": 0
+    "votes": 4625
   },
   {
     "team": "Fundador",
@@ -14475,7 +14475,7 @@ module.exports=[
     "campaign_id": "d0GN3",
     "avatar": "assets/css/images/team_logos/fundador.jpg",
     "date": "2017-10-17 at 22:28 US ET",
-    "votes": 0
+    "votes": 300
   },
   {
     "team": "Sector X",
@@ -14484,7 +14484,7 @@ module.exports=[
     "campaign_id": "07pef",
     "avatar": "assets/css/images/team_logos/sectorx.jpg",
     "date": "2017-10-18 at 00:16 US ET",
-    "votes": 0
+    "votes": 426400
   },
   {
     "team": "Black Dragon",
@@ -14493,7 +14493,7 @@ module.exports=[
     "campaign_id": "E44Qe",
     "avatar": "assets/css/images/team_logos/blackdragon.jpg",
     "date": "2017-10-18 at 59:50 US ET",
-    "votes": 0
+    "votes": 300
   },
   {
     "team": "PizzaDog",
@@ -14502,7 +14502,7 @@ module.exports=[
     "country": "US",
     "avatar": "assets/css/images/team_logos/pizzadog.jpg",
     "date": "2017-10-18 at 01:17 US ET",
-    "votes": 0
+    "votes": 3050
   },
   {
     "team": "Teamorino Meeporino",
@@ -14511,16 +14511,16 @@ module.exports=[
     "country": "US",
     "avatar": "assets/css/images/team_logos/meeporino.jpg",
     "date": "2017-10-18 at 02:49 US ET",
-    "votes": 0
+    "votes": 1250
   },
   {
-    "team": "Xdinero",
+    "team": "XDinero",
     "gleamID": "jVeFu/vote-for-xdinero-bits-americas-2017",
     "campaign_id": "jVeFu",
     "country": "US",
     "avatar": "assets/css/images/team_logos/xdinero.jpg",
     "date": "2017-10-18 at 06:22 US ET",
-    "votes": 0
+    "votes": 750
   },
   {
     "team": "Fury LAN center",
@@ -14529,7 +14529,7 @@ module.exports=[
     "country": "US",
     "avatar": "assets/css/images/team_logos/fury.jpg",
     "date": "2017-10-18 at 06:22 US ET",
-    "votes": 0
+    "votes": 300
   },
   {
     "team": "Troll Team",
@@ -14538,6 +14538,132 @@ module.exports=[
     "country": "US",
     "avatar": "assets/css/images/team_logos/trollteam.jpg",
     "date": "2017-10-18 at 09:12 US ET",
+    "votes": 1650
+  },
+  {
+    "team": "Crackers",
+    "gleamID": "a1Q5k/vote-for-crackers-bits-americas-2017",
+    "campaign_id": "a1Q5k",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/crackers.jpg",
+    "date": "2017-10-19 at 12:00 US ET",
+    "votes": 0
+  },
+  {
+    "team": "Darer Dream",
+    "gleamID": "FyoLa/vote-for-darer-dream-bits-americas-2017",
+    "campaign_id": "FyoLa",
+    "country": "PE",
+    "avatar": "assets/css/images/team_logos/darer.jpg",
+    "date": "2017-10-19 at 12:01 US ET",
+    "votes": 0
+  },
+  {
+    "team": "SF.Gaming",
+    "gleamID": "7llPY/vote-for-sfgaming-bits-americas-2017",
+    "campaign_id": "7llPY",
+    "country": "PE",
+    "avatar": "assets/css/images/team_logos/sfgaming.jpg",
+    "date": "2017-10-19 at 12:02 US ET",
+    "votes": 0
+  },
+  {
+    "team": "VirusNirvana",
+    "gleamID": "cSpnY/vote-for-virusnirvana-bits-americas-2017",
+    "campaign_id": "cSpnY",
+    "country": "PE",
+    "avatar": "assets/css/images/team_logos/virusnirvana.jpg",
+    "date": "2017-10-19 at 12:03 US ET",
+    "votes": 0
+  },
+  {
+    "team": "KeepItReal",
+    "gleamID": "XYWpk/vote-for-keep-it-real-bits-americas-2017",
+    "campaign_id": "XYWpk",
+    "country": "PE",
+    "avatar": "assets/css/images/team_logos/KeepItReal.jpg",
+    "date": "2017-10-19 at 12:04 US ET",
+    "votes": 0
+  },
+  {
+    "team": "Empire eSport",
+    "gleamID": "MBXB0/vote-for-empire-esport-bits-americas-2017",
+    "campaign_id": "MBXB0",
+    "country": "PE",
+    "avatar": "assets/css/images/team_logos/empireesport.jpg",
+    "date": "2017-10-19 at 12:05 US ET",
+    "votes": 0
+  },
+  {
+    "team": "Polar Gaming",
+    "gleamID": "W73fe/vote-for-polar-gaming-bits-americas-2017",
+    "campaign_id": "W73fe",
+    "country": "PE",
+    "avatar": "assets/css/images/team_logos/polargaming.jpg",
+    "date": "2017-10-19 at 12:06 US ET",
+    "votes": 0
+  },
+  {
+    "team": "Arcanic",
+    "gleamID": "hMdcE/vote-for-arcanic-bits-americas-2017",
+    "campaign_id": "hMdcE",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/arcanic.jpg",
+    "date": "2017-10-19 at 12:07 US ET",
+    "votes": 0
+  },
+  {
+    "team": "Aeon",
+    "gleamID": "CXbGp/vote-for-aeon-bits-americas-2017",
+    "campaign_id": "CXbGp",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/aeon.jpg",
+    "date": "2017-10-19 at 12:08 US ET",
+    "votes": 0
+  },
+  {
+    "team": "Ovni Dead",
+    "gleamID": "tmNIn/vote-for-ovni-dead-bits-americas-2017",
+    "campaign_id": "tmNIn",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/ovnidead.jpg",
+    "date": "2017-10-19 at 12:09 US ET",
+    "votes": 0
+  },
+  {
+    "team": "Koalanet",
+    "gleamID": "MEh4i/vote-for-team-koalanet-bits-americas-2017",
+    "campaign_id": "MEh4i",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/koalanet.jpg",
+    "date": "2017-10-19 at 12:10 US ET",
+    "votes": 0
+  },
+  {
+    "team": "CES",
+    "gleamID": "O6qUm/vote-for-ces-bits-americas-2017",
+    "campaign_id": "O6qUm",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/ces.jpg",
+    "date": "2017-10-19 at 12:11 US ET",
+    "votes": 0
+  },
+  {
+    "team": "Jano Jam",
+    "gleamID": "d77eX/vote-for-jano-jam-bits-americas-2017",
+    "campaign_id": "d77eX",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/janojam.jpg",
+    "date": "2017-10-19 at 12:12 US ET",
+    "votes": 0
+  },
+  {
+    "team": "Los tigres del sabor",
+    "gleamID": "CbZbR/vote-for-los-tigres-del-sabor-bits-americas-2017",
+    "campaign_id": "CbZbR",
+    "country": "PE",
+    "avatar": "assets/css/images/team_logos/lostigresdelsabor.jpg",
+    "date": "2017-10-19 at 12:13 US ET",
     "votes": 0
   }
 ]

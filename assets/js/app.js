@@ -65,7 +65,25 @@ $(document).ready(function(){
 
         // $('.grid-separator').addClass('hidden'); //temp
 
+        //ajax call here
+
+        // $.ajax({
+        //     url: "https://bits-api.firstblood.io/votes",
+        //     type: "GET",
+        //     crossDomain: true,
+        //     dataType: "json",
+        //     success: function (response) {
+        //         console.log(response)
+        //         componentCreator.processTeams(teams);
+        //     },
+        //     error: function (xhr, status) {
+        //     }
+        // });
+
+
         componentCreator.processTeams(teams);
+
+
 
         $('.vote-button').click(function () {
             var id = $(this)[0].id;

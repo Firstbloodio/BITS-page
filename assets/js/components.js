@@ -54,7 +54,29 @@ module.exports = componentsCreator = {
     },
 
 
-    processTeams: function(teams) {
+    processTeams: function(teams, votesData) {
+
+        // var votesData = {
+        //     pUyWi : {
+        //         votes: 10
+        //     },
+        //     eoTH4: {
+        //         votes: 20
+        //     }
+        // };
+
+        // console.log(votesData['eoTH4']);
+        //
+        //
+        // teams.forEach(function(team) {
+        //     console.log(votesData);
+        //     console.log(team.campaign_id);
+        //     var campaign = team.campaign_id.toString();
+        //     if (votesData[campaign])
+        //         team.votes = votesData[campaign].votes;
+        //     else
+        //         team.votes = 0;
+        // });
 
         teams.sort(function(a, b) {
             return b.votes - a.votes;

@@ -14318,6 +14318,7 @@ module.exports=[
   {
     "team": "Leviathan",
     "gleamID": "pUyWi/vote-for-leviathan-bits-americas-2017",
+    "campaign_id": "pUyWi",
     "country": "US",
     "avatar": "assets/css/images/team_logos/leviathan.jpg",
     "date": "11/3/2017 at 14:00 US ET",
@@ -14326,6 +14327,7 @@ module.exports=[
   {
     "team": "VGJ.Storm",
     "gleamID": "eoTH4/vote-for-vgjstorm-bits-americas-2017",
+    "campaign_id": "eoTH4",
     "country": "US",
     "avatar": "assets/css/images/team_logos/VGJ_Storm.jpg",
     "date": "11/3/2017 at 14:00 US ET",
@@ -14334,6 +14336,7 @@ module.exports=[
   {
     "team": "Blue Pikachu",
     "gleamID": "aX3lW/vote-for-blue-pikachu-bits-americas-2017",
+    "campaign_id": "aX3lW",
     "country": "US",
     "avatar": "assets/css/images/team_logos/blue_pikachu.jpg",
     "date": "11/3/2017 at 14:00 US ET",
@@ -14342,6 +14345,7 @@ module.exports=[
   {
     "team": "Team Morty",
     "gleamID": "gRFDK/vote-for-team-morty-bits-americas-2017",
+    "campaign_id": "gRFDK",
     "country": "US",
     "avatar": "assets/css/images/team_logos/team_morty.jpg",
     "date": "11/3/2017 at 14:00 US ET",
@@ -14350,6 +14354,7 @@ module.exports=[
   {
     "team": "Mad Kings",
     "gleamID": "z755W/vote-for-mad-kings-bits-americas-2017",
+    "campaign_id": "z755W",
     "country": "PE",
     "avatar": "assets/css/images/team_logos/mad_kings.jpg",
     "date": "11/3/2017 at 14:00 US ET",
@@ -14358,6 +14363,7 @@ module.exports=[
   {
     "team": "Wheel Wreck",
     "gleamID": "tichk/vote-for-wheel-wreck-while-whistling-bits-americas-2017",
+    "campaign_id": "tichk",
     "country": "US",
     "avatar": "assets/css/images/team_logos/wheel_wreck.jpg",
     "date": "11/3/2017 at 14:00 US ET",
@@ -14366,6 +14372,7 @@ module.exports=[
   {
     "team": "Rats & Bunnies",
     "gleamID": "Ai5E4/vote-for-rats-and-bunnies-bits-americas-2017",
+    "campaign_id": "Ai5E4",
     "country": "US",
     "avatar": "assets/css/images/team_logos/rats_and_bunnies.jpg",
     "date": "11/3/2017 at 14:00 US ET",
@@ -14374,6 +14381,7 @@ module.exports=[
   {
     "team": "Anthrax",
     "gleamID": "aOxeQ/vote-for-anthrax-bits-americas-2017",
+    "campaign_id": "aOxeQ",
     "country": "BO",
     "avatar": "assets/css/images/team_logos/anthrax.jpg",
     "date": "11/3/2017 at 14:00 US ET",
@@ -14382,6 +14390,7 @@ module.exports=[
   {
     "team": "PMA For the Win",
     "gleamID": "Gv9XU/vote-for-pma-ftw-bits-americas-2017",
+    "campaign_id": "Gv9XU",
     "country": "US",
     "avatar": "assets/css/images/team_logos/PMA.jpg",
     "date": "11/3/2017 at 14:00 US ET",
@@ -14390,6 +14399,7 @@ module.exports=[
   {
     "team": "Elite Wolves",
     "gleamID": "3CsWd/vote-for-elite-wolves-bits-americas-2017",
+    "campaign_id": "3CsWd",
     "country": "PE",
     "avatar": "assets/css/images/team_logos/elite_wolves.jpg",
     "date": "11/3/2017 at 14:00 US ET",
@@ -14398,6 +14408,7 @@ module.exports=[
   {
     "team": "G-Pride",
     "gleamID": "pkG6D/vote-for-gpride-bits-na-2017",
+    "campaign_id": "pkG6D",
     "country": "PE",
     "avatar": "assets/css/images/team_logos/gpride.jpg",
     "date": "11/3/2017 at 14:00 US ET",
@@ -14406,6 +14417,7 @@ module.exports=[
   {
     "team": "SuperDoraemon",
     "gleamID": "otGjj/vote-for-team-superdoraemon-bits-americas-2017",
+    "campaign_id": "otGjj",
     "country": "US",
     "avatar": "assets/css/images/team_logos/SD.jpg",
     "date": "11/3/2017 at 14:00 US ET",
@@ -14414,6 +14426,7 @@ module.exports=[
   {
     "team": "Sage Network",
     "gleamID": "B1HES/vote-for-sage-network-bits-americas-2017",
+    "campaign_id": "B1HES",
     "country": "BO",
     "avatar": "assets/css/images/team_logos/sage.jpg",
     "date": "11/3/2017 at 14:00 US ET",
@@ -14422,6 +14435,7 @@ module.exports=[
   {
     "team": "Savage Magikarps",
     "gleamID": "MGX5K/vote-for-savage-magikarps-bits-americas-2017",
+    "campaign_id": "MGX5K",
     "country": "CR",
     "avatar": "assets/css/images/team_logos/savage_magikarps.jpg",
     "date": "11/3/2017 at 14:00 US ET",
@@ -14430,6 +14444,7 @@ module.exports=[
   {
     "team": "Mind's Eye",
     "gleamID": "2dOwF/vote-for-minds-eye-bits-americas-2017",
+    "campaign_id": "2dOwF",
     "country": "US",
     "avatar": "assets/css/images/team_logos/minds_eye.jpg",
     "date": "11/3/2017 at 14:00 US ET",
@@ -14438,6 +14453,7 @@ module.exports=[
   {
     "team": "Luccini Gaming",
     "gleamID": "6QOPn/vote-for-luccini-gaming-bits-americas-2017",
+    "campaign_id": "6QOPn",
     "country": "PE",
     "avatar": "assets/css/images/team_logos/luccini.jpg",
     "date": "11/3/2017 at 14:00 US ET",
@@ -14446,6 +14462,7 @@ module.exports=[
   {
     "team": "Reveng Esports",
     "gleamID": "KEVQX/vote-for-revenge-esports-bits-americas-2017",
+    "campaign_id": "KEVQX",
     "country": "PE",
     "avatar": "assets/css/images/team_logos/revenge.jpg",
     "date": "2017-10-17 at 21:33 US ET",
@@ -14455,6 +14472,7 @@ module.exports=[
     "team": "Fundador",
     "gleamID": "d0GN3/vote-for-team-fundador-bits-americas-2017",
     "country": "PE",
+    "campaign_id": "d0GN3",
     "avatar": "assets/css/images/team_logos/fundador.jpg",
     "date": "2017-10-17 at 22:28 US ET",
     "votes": 0
@@ -14463,6 +14481,7 @@ module.exports=[
     "team": "Sector X",
     "gleamID": "07pef/vote-for-sector-x-bits-americas-2017",
     "country": "PE",
+    "campaign_id": "07pef",
     "avatar": "assets/css/images/team_logos/sectorx.jpg",
     "date": "2017-10-18 at 00:16 US ET",
     "votes": 0
@@ -14471,6 +14490,7 @@ module.exports=[
     "team": "Black Dragon",
     "gleamID": "E44Qe/vote-for-black-dragon-bits-americas-2017",
     "country": "PE",
+    "campaign_id": "E44Qe",
     "avatar": "assets/css/images/team_logos/blackdragon.jpg",
     "date": "2017-10-18 at 59:50 US ET",
     "votes": 0
@@ -14478,6 +14498,7 @@ module.exports=[
   {
     "team": "PizzaDog",
     "gleamID": "w46od/vote-for-pizzadog-bits-americas-2017",
+    "campaign_id": "w46od",
     "country": "US",
     "avatar": "assets/css/images/team_logos/pizzadog.jpg",
     "date": "2017-10-18 at 01:17 US ET",
@@ -14486,6 +14507,7 @@ module.exports=[
   {
     "team": "Teamorino Meeporino",
     "gleamID": "1dvAA/vote-for-meeporino-bits-americas-2017",
+    "campaign_id": "1dvAA",
     "country": "US",
     "avatar": "assets/css/images/team_logos/meeporino.jpg",
     "date": "2017-10-18 at 02:49 US ET",
@@ -14494,6 +14516,7 @@ module.exports=[
   {
     "team": "Xdinero",
     "gleamID": "jVeFu/vote-for-xdinero-bits-americas-2017",
+    "campaign_id": "jVeFu",
     "country": "US",
     "avatar": "assets/css/images/team_logos/xdinero.jpg",
     "date": "2017-10-18 at 06:22 US ET",
@@ -14502,6 +14525,7 @@ module.exports=[
   {
     "team": "Fury LAN center",
     "gleamID": "aeUJk/voter-for-fury-bits-americas-2017",
+    "campaign_id": "aeUJk",
     "country": "US",
     "avatar": "assets/css/images/team_logos/fury.jpg",
     "date": "2017-10-18 at 06:22 US ET",
@@ -14510,6 +14534,7 @@ module.exports=[
   {
     "team": "Troll Team",
     "gleamID": "DIgOl/vote-for-troll-team-bits-americas-2017",
+    "campaign_id": "DIgOl",
     "country": "US",
     "avatar": "assets/css/images/team_logos/trollteam.jpg",
     "date": "2017-10-18 at 09:12 US ET",
@@ -14585,7 +14610,25 @@ $(document).ready(function(){
 
         // $('.grid-separator').addClass('hidden'); //temp
 
+        //ajax call here
+
+        // $.ajax({
+        //     url: "https://bits-api.firstblood.io/votes",
+        //     type: "GET",
+        //     crossDomain: true,
+        //     dataType: "json",
+        //     success: function (response) {
+        //         console.log(response)
+        //         componentCreator.processTeams(teams);
+        //     },
+        //     error: function (xhr, status) {
+        //     }
+        // });
+
+
         componentCreator.processTeams(teams);
+
+
 
         $('.vote-button').click(function () {
             var id = $(this)[0].id;
@@ -14702,7 +14745,29 @@ module.exports = componentsCreator = {
     },
 
 
-    processTeams: function(teams) {
+    processTeams: function(teams, votesData) {
+
+        // var votesData = {
+        //     pUyWi : {
+        //         votes: 10
+        //     },
+        //     eoTH4: {
+        //         votes: 20
+        //     }
+        // };
+
+        // console.log(votesData['eoTH4']);
+        //
+        //
+        // teams.forEach(function(team) {
+        //     console.log(votesData);
+        //     console.log(team.campaign_id);
+        //     var campaign = team.campaign_id.toString();
+        //     if (votesData[campaign])
+        //         team.votes = votesData[campaign].votes;
+        //     else
+        //         team.votes = 0;
+        // });
 
         teams.sort(function(a, b) {
             return b.votes - a.votes;

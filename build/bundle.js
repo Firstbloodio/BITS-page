@@ -14643,7 +14643,7 @@ module.exports=[
     "team": "CES",
     "gleamID": "O6qUm/vote-for-ces-bits-americas-2017",
     "campaign_id": "O6qUm",
-    "country": "US",
+    "country": "AU",
     "avatar": "assets/css/images/team_logos/ces.jpg",
     "date": "2017-10-19 at 12:11 US ET",
     "votes": 0
@@ -14664,6 +14664,33 @@ module.exports=[
     "country": "PE",
     "avatar": "assets/css/images/team_logos/lostigresdelsabor.jpg",
     "date": "2017-10-19 at 12:13 US ET",
+    "votes": 0
+  },
+  {
+    "team": "Team Victory",
+    "gleamID": "41vIi/vote-for-team-victory-bits-americas-2017",
+    "campaign_id": "41vIi",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/victory.jpg",
+    "date": "2017-10-20 at 10:00 US ET",
+    "votes": 0
+  },
+  {
+    "team": "Team Severance",
+    "gleamID": "WlTp9/vote-for-team-severance-bits-americas-2017",
+    "campaign_id": "WlTp9",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/severance.jpg",
+    "date": "2017-10-20 at 10:01 US ET",
+    "votes": 0
+  },
+  {
+    "team": "EVIL GENERATION",
+    "gleamID": "Ex1t3/vote-for-evil-generation-bits-americas-2017",
+    "campaign_id": "Ex1t3",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/evilgeneration.jpg",
+    "date": "2017-10-20 at 10:01 US ET",
     "votes": 0
   }
 ]

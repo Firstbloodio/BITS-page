@@ -14572,7 +14572,7 @@ module.exports=[
     "gleamID": "cSpnY/vote-for-virusnirvana-bits-americas-2017",
     "campaign_id": "cSpnY",
     "country": "PE",
-    "avatar": "assets/css/images/team_logos/virusnirvana.jpg",
+    "avatar": "assets/css/images/team_logos/VirusNirvana.jpg",
     "date": "2017-10-19 at 12:03 US ET",
     "votes": 0
   },

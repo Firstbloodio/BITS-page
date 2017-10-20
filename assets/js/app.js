@@ -44,7 +44,7 @@ $(document).ready(function(){
     setInterval(function(){
         var currentTime = moment.now();
 
-        var diff = moment.duration(eventTime.diff(currentTime));
+        var diff = moment.duration(eventTime - currentTime);
 
         var days = diff.days();
         var hours = diff.hours();

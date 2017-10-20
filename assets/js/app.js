@@ -67,39 +67,39 @@ $(document).ready(function(){
 
         //ajax call here
 
-        // $.ajax({
-        //     url: "https://bits-api.firstblood.io/votes",
-        //     type: "GET",
-        //     crossDomain: true,
-        //     dataType: "json",
-        //     success: function (response) {
-        //         console.log(response)
-        //         componentCreator.processTeams(teams);
-        //     },
-        //     error: function (xhr, status) {
-        //     }
-        // });
+        $.ajax({
+            url: "https://bits-api.firstblood.io/votes",
+            type: "GET",
+            crossDomain: true,
+            dataType: "json",
+            success: function (response) {
+                componentCreator.processTeams(teams, response);
+                $('.vote-button').click(function () {
+                    var id = $(this)[0].id;
 
-
-        componentCreator.processTeams(teams);
-
-
-
-        $('.vote-button').click(function () {
-            var id = $(this)[0].id;
-            
-            if ($(window).width() < 768) {
-                $(this).addClass('e-widget generic-loader');
-                var index = teams.findIndex(function(team) {
-                    return team.gleamID === id.toString();
+                    if ($(window).width() < 768) {
+                        $(this).addClass('e-widget generic-loader');
+                        var index = teams.findIndex(function(team) {
+                            return team.gleamID === id.toString();
+                        });
+                        var teamLink =  teams[index].gleamID;
+                        $(this).attr('href', 'https://gleam.io/'+ teamLink);
+                        $(this).attr('target', '_blank');
+                    } else {
+                        componentCreator.createGleamModal(id);
+                    }
                 });
-                var teamLink =  teams[index].gleamID;
-                $(this).attr('href', 'https://gleam.io/'+ teamLink);
-                $(this).attr('target', '_blank');
-            } else {
-                componentCreator.createGleamModal(id);
+            },
+            error: function (xhr, status) {
             }
         });
+
+
+        // componentCreator.processTeams(teams);
+
+
+
+
     }
 
     $("#vote-button").click(function() {

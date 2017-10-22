@@ -14706,7 +14706,7 @@ module.exports=[
     "team": "Rebirth Esports",
     "gleamID": "Dq51w/vote-for-rebirth-esports-bits-americas-2017",
     "campaign_id": "Dq51w",
-    "country": "US",
+    "country": "CL",
     "avatar": "assets/css/images/team_logos/rebirthesports.jpg",
     "date": "2017-10-21 at 12:01 US ET",
     "votes": 0

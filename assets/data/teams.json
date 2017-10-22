@@ -376,5 +376,32 @@
     "avatar": "assets/css/images/team_logos/evilgeneration.jpg",
     "date": "2017-10-20 at 10:01 US ET",
     "votes": 0
+  },
+  {
+    "team": "Unknown Team",
+    "gleamID": "I29Hq/vote-for-unknown-team-bits-americas-2017",
+    "campaign_id": "I29Hq",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/unknownteam.jpg",
+    "date": "2017-10-21 at 12:00 US ET",
+    "votes": 0
+  },
+  {
+    "team": "Rebirth Esports",
+    "gleamID": "Dq51w/vote-for-rebirth-esports-bits-americas-2017",
+    "campaign_id": "Dq51w",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/rebirthesports.jpg",
+    "date": "2017-10-21 at 12:01 US ET",
+    "votes": 0
+  },
+  {
+    "team": "Space Create eSports",
+    "gleamID": "xlxYC/vote-for-space-create-esports-bits-americas-2017",
+    "campaign_id": "xlxYC",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/spacecreateesesports.jpg",
+    "date": "2017-10-21 at 12:02 US ET",
+    "votes": 0
   }
 ]

@@ -14719,6 +14719,24 @@ module.exports=[
     "avatar": "assets/css/images/team_logos/spacecreateesesports.jpg",
     "date": "2017-10-21 at 12:02 US ET",
     "votes": 0
+  },
+  {
+    "team": "Soldiers Sans Frontriers",
+    "gleamID": "AlQ47/vote-for-soldiers-sans-frontriers-bits-americas-2017",
+    "campaign_id": "AlQ47",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/soldierssansfrontriers.jpg",
+    "date": "2017-10-21 at 12:03 US ET",
+    "votes": 0
+  },
+  {
+    "team": "THE LEGEND OF MEEPO",
+    "gleamID": "XYag0/vote-for-the-legend-of-meepo-bits-americas-2017",
+    "campaign_id": "XYag0",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/THELEGENDOFMEEPO.jpg",
+    "date": "2017-10-21 at 12:03 US ET",
+    "votes": 0
   }
 ]
 

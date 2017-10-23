@@ -97,6 +97,33 @@ module.exports = componentsCreator = {
             side: "bottom",
             theme: 'tooltipster-shadow'
         });
+    },
+
+    createMatchComponent: function(matchData){
+        return (
+            '  <div class="match-day">\n' +
+            '                    <div class="match-day-info">' + matchData.date + '</div>\n' +
+            '                    <div class="match-round-info ' + matchData.id + '">\n'  +
+            '                    </div>\n' +
+            '                </div>'
+        )
+    },
+
+
+    processMatches: function(matches) {
+        var that = this;
+        matches.forEach(function(match) {
+            $('.schedule-table').append(that.createMatchComponent(match));
+            match.matches.forEach(function(dayMatch) {
+                $('.match-round-info.' + match.id.toString()).append(
+                    ' <div class="match-info">\n' +
+                    '                            <div class="match-name">' + dayMatch.match_name + '</div>\n' +
+                    '                            <div class="round-details">' + dayMatch.round + '</div>\n' +
+                    '                            <div class="match0-time">' + dayMatch.time + '</div>\n' +
+                    '                        </div>'
+                )
+            })
+        })
     }
 };
 

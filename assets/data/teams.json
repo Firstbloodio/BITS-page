@@ -419,7 +419,16 @@
     "campaign_id": "XYag0",
     "country": "US",
     "avatar": "assets/css/images/team_logos/THELEGENDOFMEEPO.jpg",
-    "date": "2017-10-21 at 12:03 US ET",
+    "date": "2017-10-21 at 12:04 US ET",
+    "votes": 0
+  },
+  {
+    "team": "Extreme Gaming",
+    "gleamID": "zWK6K/vote-for-xtreme-gaming-bits-americas-2017",
+    "campaign_id": "zWK6K",
+    "country": "PE",
+    "avatar": "assets/css/images/team_logos/extremegaming.jpg",
+    "date": "2017-10-22 at 12:00 US ET",
     "votes": 0
   }
 ]

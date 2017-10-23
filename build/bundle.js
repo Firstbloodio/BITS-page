@@ -14317,33 +14317,38 @@ module.exports=[
 module.exports=[
   {
     "id": 1,
-    "date": "THURSDAY, NOV.6th",
+    "date": "TUESDAY, NOV 7th",
     "matches": [
       {
-        "match_name": "MATCH A",
+        "match_name": "3rd vs 6th",
         "round": "UB R1",
-        "time": "19:30 CET"
+        "time": "17:00 US ET"
       },
       {
-        "match_name": "MATCH A",
+        "match_name": "1st vs 8th",
         "round": "UB R1",
-        "time": "19:30 CET"
+        "time": "19:30 US ET"
       }
     ]
   },
   {
     "id": 2,
-    "date": "THURSDAY, NOV.6th",
+    "date": "WEDNESDAY, NOV 8th",
     "matches": [
       {
-        "match_name": "MATCH A",
+        "match_name": "2nd vs 7th",
+        "round": "UB R1",
+        "time": "17:00 CET"
+      },
+      {
+        "match_name": "3rd vs 4th",
         "round": "UB R1",
         "time": "19:30 CET"
       },
       {
-        "match_name": "MATCH A",
+        "match_name": "TBD",
         "round": "UB R1",
-        "time": "19:30 CET"
+        "time": "22:00 CET"
       }
     ]
   },
@@ -14445,6 +14450,7 @@ module.exports=[
   }
 
 ]
+
 },{}],3:[function(require,module,exports){
 module.exports=[
   {

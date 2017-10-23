@@ -2,7 +2,6 @@ var $ = require('jquery');
 var moment = require('moment');
 require('../../tooltipster');
 
-
 var countries = require('../data/countries.json');
 var teams = require('../data/teams.json');
 var matches = require('../data/matches.json')
@@ -43,8 +42,9 @@ $(document).ready(function(){
     });
 
     var url = window.location.pathname;
+    var loc = window.location.hash;
 
-    if (url === "/index.html") {
+    if (url === "/index.html" || loc === "") {
         /* setting up the timer */
 
         var eventTime = moment("10/29/2017 23:59", "M/D/YYYY H:mm").unix()*1000;
@@ -123,9 +123,12 @@ $(document).ready(function(){
 
         /* scroll down to vote */
 
-    } else if (url === "/schedule.html") {
+    }
+    if (url === "/schedule.html") {
         componentCreator.processMatches(matches);
-    } else if (url === "/rules.html") {
+    }
+
+    if (url === "/rules.html") {
     }
 
 

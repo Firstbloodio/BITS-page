@@ -63,3 +63,38 @@
     justify-content: space-between;
 }
 
+.brackets-container {
+    margin-top: 50px;
+    display: flex;
+}
+
+#brackets {
+    margin: auto;
+}
+
+
+/* overwriting the bracket css */
+
+.team {
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.label {
+    position: static !important;
+}
+
+.score {
+    height: 30px;
+    width: 30px !important;
+    border: 1px solid #FFF;
+    opacity: 0.6;
+    border-radius: 2px;
+    margin-right: 8px;
+    padding: 0 !important;
+    line-height: 27px;
+
+}
+

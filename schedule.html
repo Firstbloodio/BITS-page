@@ -6,6 +6,11 @@
     <link rel="stylesheet" href="assets/css/main-americas2017.css"/>
     <link rel="stylesheet" href="assets/css/schedule.css"/>
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans"/>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <link href="/jquery-bracket/dist/bracket.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery-bracket/dist/jquery.bracket.min.js"></script>
+    <script src="assets/js/tournament.js"></script>
 </head>
 <body>
 
@@ -58,7 +63,9 @@
         </div>
         <div class="content-row brackets">
             <div class="title">BRACKETS</div>
-            <div class="brackets-container"></div>
+            <div class="brackets-container">
+                <div id="brackets"></div>
+            </div>
         </div>
         <div class="footer-info">
             <div class="copyright">&copy; 2017 Firstblood™</div>
@@ -75,7 +82,9 @@
     </div>
 </div>
 
-
 <script src="build/bundle.js"></script>
+
+
+
 </body>
 </html>

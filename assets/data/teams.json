@@ -437,7 +437,43 @@
     "campaign_id": "Lzr8K",
     "country": "US",
     "avatar": "assets/css/images/team_logos/theviolament.jpg",
-    "date": "2017-10-22 at 12:00 US ET",
+    "date": "2017-10-24 at 12:00 US ET",
+    "votes": 0
+  },
+  {
+    "team": "Anonimus Gaming",
+    "gleamID": "CsuX1/vote-for-anonimus-gaming-bits-americas-2017",
+    "campaign_id": "CsuX1",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/anonimusgaming.jpg",
+    "date": "2017-10-24 at 12:01 US ET",
+    "votes": 0
+  },
+  {
+    "team": "GoldDeath",
+    "gleamID": "pbkGe/vote-for-golddeath-bits-americas-2017",
+    "campaign_id": "pbkGe",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/golddeath.jpg",
+    "date": "2017-10-24 at 12:02 US ET",
+    "votes": 0
+  },
+  {
+    "team": "Sacred",
+    "gleamID": "8b16v/vote-for-sacred-bits-americas-2017",
+    "campaign_id": "8b16v",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/sacred.jpg",
+    "date": "2017-10-24 at 12:03 US ET",
+    "votes": 0
+  },
+  {
+    "team": "Black Crow",
+    "gleamID": "8Q8dK/vote-for-black-crow-bits-americas-2017",
+    "campaign_id": "8Q8dK",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/blackcrow.jpg",
+    "date": "2017-10-24 at 12:04 US ET",
     "votes": 0
   }
 ]

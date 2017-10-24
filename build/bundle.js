@@ -14697,7 +14697,7 @@ module.exports=[
     "team": "Unknown Team",
     "gleamID": "I29Hq/vote-for-unknown-team-bits-americas-2017",
     "campaign_id": "I29Hq",
-    "country": "US",
+    "country": "PE",
     "avatar": "assets/css/images/team_logos/unknownteam.jpg",
     "date": "2017-10-21 at 12:00 US ET",
     "votes": 0
@@ -14744,6 +14744,15 @@ module.exports=[
     "campaign_id": "zWK6K",
     "country": "BO",
     "avatar": "assets/css/images/team_logos/extremegaming.jpg",
+    "date": "2017-10-22 at 12:00 US ET",
+    "votes": 0
+  },
+  {
+    "team": "theViolament",
+    "gleamID": "Lzr8K/vote-for-theviolament-bits-americas-2017",
+    "campaign_id": "Lzr8K",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/theviolament.jpg",
     "date": "2017-10-22 at 12:00 US ET",
     "votes": 0
   }

@@ -14752,7 +14752,7 @@ module.exports=[
     "gleamID": "Lzr8K/vote-for-theviolament-bits-americas-2017",
     "campaign_id": "Lzr8K",
     "country": "US",
-    "avatar": "assets/css/images/team_logos/theviolament.jpg",
+    "avatar": "assets/css/images/team_logos/theVIOLAMENT.jpg",
     "date": "2017-10-24 at 12:00 US ET",
     "votes": 0
   },
@@ -14770,7 +14770,7 @@ module.exports=[
     "gleamID": "pbkGe/vote-for-golddeath-bits-americas-2017",
     "campaign_id": "pbkGe",
     "country": "US",
-    "avatar": "assets/css/images/team_logos/golddeath.jpg",
+    "avatar": "assets/css/images/team_logos/GoldDeath.jpg",
     "date": "2017-10-24 at 12:02 US ET",
     "votes": 0
   },
@@ -14780,7 +14780,7 @@ module.exports=[
     "campaign_id": "8b16v",
     "country": "US",
     "avatar": "assets/css/images/team_logos/sacred.jpg",
-    "date": "2017-10-24 at 12:03 US ET",
+    "date": "2017-10-24 at 12:04 US ET",
     "votes": 0
   },
   {

@@ -4,14 +4,19 @@
     "date": "TUESDAY, NOV 7th",
     "matches": [
       {
-        "match_name": "3rd vs 6th",
+        "match_name": "B: 3rd vs 6th",
         "round": "UB R1",
         "time": "17:00 US ET"
       },
       {
-        "match_name": "1st vs 8th",
+        "match_name": "A: 1st vs 8th",
         "round": "UB R1",
         "time": "19:30 US ET"
+      },
+      {
+        "match_name": "C: TBD",
+        "round": "UB R1",
+        "time": "22:00 US ET"
       }
     ]
   },
@@ -20,17 +25,17 @@
     "date": "WEDNESDAY, NOV 8th",
     "matches": [
       {
-        "match_name": "2nd vs 7th",
+        "match_name": "D: 2nd vs 7th",
         "round": "UB R1",
         "time": "17:00 CET"
       },
       {
-        "match_name": "3rd vs 4th",
+        "match_name": "E: 3rd vs 4th",
         "round": "UB R1",
         "time": "19:30 CET"
       },
       {
-        "match_name": "TBD",
+        "match_name": "F: TBD",
         "round": "UB R1",
         "time": "22:00 CET"
       }
@@ -38,99 +43,66 @@
   },
   {
     "id": 3,
-    "date": "THURSDAY, NOV.6th",
+    "date": "THURSDAY, NOV.9th",
     "matches": [
       {
-        "match_name": "MATCH A",
-        "round": "UB R1",
-        "time": "19:30 CET"
+        "match_name": "G: TBD",
+        "round": "UB R2",
+        "time": "17:00 CET"
       },
       {
-        "match_name": "MATCH A",
-        "round": "UB R1",
+        "match_name": "H: TBD",
+        "round": "UB R2",
         "time": "19:30 CET"
       }
     ]
   },
   {
     "id": 4,
-    "date": "THURSDAY, NOV.6th",
+    "date": "FRIDAY, NOV.10th",
     "matches": [
       {
-        "match_name": "MATCH A",
-        "round": "UB R1",
-        "time": "19:30 CET"
+        "match_name": "I: TBD",
+        "round": "LB R2",
+        "time": "17:00 CET"
       },
       {
-        "match_name": "MATCH A",
-        "round": "UB R1",
+        "match_name": "J: TBD",
+        "round": "LB R2",
         "time": "19:30 CET"
       }
     ]
   },
   {
     "id": 5,
-    "date": "THURSDAY, NOV.6th",
+    "date": "SATURDAY, NOV.11th",
     "matches": [
       {
-        "match_name": "MATCH A",
-        "round": "UB R1",
-        "time": "19:30 CET"
+        "match_name": "K: TBD",
+        "round": "LB R3",
+        "time": "17:00 CET"
       },
       {
-        "match_name": "MATCH A",
-        "round": "UB R1",
+        "match_name": "L: TBD",
+        "round": "UB FINAL",
         "time": "19:30 CET"
       }
     ]
   },
   {
     "id": 6,
-    "date": "THURSDAY, NOV.6th",
+    "date": "SUNDAY, NOV.12th",
     "matches": [
       {
-        "match_name": "MATCH A",
-        "round": "UB R1",
-        "time": "19:30 CET"
+        "match_name": "M: TBD",
+        "round": "LB FINAL",
+        "time": "13:00 CET"
       },
       {
-        "match_name": "MATCH A",
-        "round": "UB R1",
-        "time": "19:30 CET"
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "date": "THURSDAY, NOV.6th",
-    "matches": [
-      {
-        "match_name": "MATCH A",
-        "round": "UB R1",
-        "time": "19:30 CET"
-      },
-      {
-        "match_name": "MATCH A",
-        "round": "UB R1",
-        "time": "19:30 CET"
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "date": "THURSDAY, NOV.6th",
-    "matches": [
-      {
-        "match_name": "MATCH A",
-        "round": "UB R1",
-        "time": "19:30 CET"
-      },
-      {
-        "match_name": "MATCH A",
-        "round": "UB R1",
-        "time": "19:30 CET"
+        "match_name": "N: TBD",
+        "round": "GRAND FINAL",
+        "time": "15:30 CET"
       }
     ]
   }
-
 ]

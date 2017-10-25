@@ -1,19 +1,41 @@
 var brackets = {
-    teams : [
-        ["Team 1", "Team 2"], /* first matchup */
-        ["Team 3", "Team 4"],
-        ["Team 5", "Team 6"],
-        ["Team 7", "Team 8"],
-        ["Team 9", "Team 10"],
-        ["Team 11", "Team 12"],
-        ["Team 13", "Team 14"],
-        ["Team 15", "Team 16"], /* second matchup */
+  "teams": [
+    ["Team 1", "Team 2"],
+    ["Team 3", "Team 4"],
+    ["Team 5", "Team 6"],
+    ["Team 7", "Team 8"]
+  ],
+  "results": [            // List of brackets (three since this is double elimination)
+    [ // R1 Upper bracket
+      [[,], // match A
+      [,],  // match B
+      [,],  // match D
+      [,]], // match E
+      // R2 Upper bracket
+      [[,], // match G
+      [,]], // match H
+      // Upper Bracket Final
+      [[,]] // match L
     ],
-    results : [
-        [[1,2], [3,4]],       /* first round */
-        [[4,6], [2,1]]        /* second round */
+    [ // R1 Loser bracket
+      [[,], // match C
+      [,]], // match F
+      // R2 Loser bracket
+      [[,], // match I
+      [,]],  // match J
+      // R3 Loser bracket
+      [[,]], // match C
+      // Lower Bracket Final
+      [[,]], // match C
+
+    ],
+    [          // Grand Final
+      [
+        [,]    // match N
+      ],
     ]
-};
+  ]
+}
 
 
 
@@ -26,6 +48,7 @@ $(document).ready(function(){
         scoreWidth: 20,
         matchMargin: 100,
         roundMargin: 50,
+        skipConsolationRound: true,
         init: brackets
     })
 

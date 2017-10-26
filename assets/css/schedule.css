@@ -1,24 +1,29 @@
 
-.content-row.schedule {
-    padding-bottom: 13px;
+.main-info-container {
+    max-width: none;
 }
+
 
 .schedule-table {
     width: 1026px;
     display: flex;
     flex-wrap: wrap;
     color: #FFF;
-    margin-top: 30px;
+    margin: 60px auto 0;
+}
+
+.content-row.schedule {
+    padding-bottom: 10px;
 }
 
 .match-day {
     display: flex;
     flex-direction: column;
-    width: 200px;
-    padding: 37px;
+    width: 251px;
+    padding: 54px;
 }
 
-.match-day:nth-child(-n+4) {
+.match-day:nth-child(-n+3) {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     padding-top: 0;
 }
@@ -27,19 +32,19 @@
     padding-left: 0;
 }
 
-.match-day:nth-child(5) {
-    padding-left: 0;
-}
-
-.match-day:nth-child(9) {
-    padding-left: 0;
-}
-
 .match-day:nth-child(4) {
-    padding-right: 0;
+    padding-left: 0;
 }
 
 .match-day:nth-child(8) {
+    padding-left: 0;
+}
+
+.match-day:nth-child(3) {
+    padding-right: 0;
+}
+
+.match-day:nth-child(7) {
     padding-right: 0;
 }
 
@@ -54,8 +59,13 @@
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    height: 49px;
-    justify-content: space-between;
+    height: 68px;
+}
+
+.match-time,
+.round-details {
+    opacity: 0.6;
+    color: #FFFFFF;
 }
 
 .match-info {
@@ -70,6 +80,27 @@
 
 #brackets {
     margin: auto;
+}
+
+.match-name {
+    flex-grow: 2;
+}
+
+.match-name.TBD {
+    flex-grow: 0;
+}
+
+
+.match-time {
+   margin-left: 10px;
+}
+
+.match-time.TBD {
+    margin: 0;
+}
+
+.round-details {
+    text-align: center;
 }
 
 

@@ -46,7 +46,7 @@ $(document).ready(function(){
     $('#brackets').bracket({
         teamWidth: 220,
         scoreWidth: 20,
-        matchMargin: 100,
+        matchMargin: 107,
         roundMargin: 50,
         skipConsolationRound: true,
         init: brackets

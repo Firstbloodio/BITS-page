@@ -115,11 +115,15 @@ module.exports = componentsCreator = {
         matches.forEach(function(match) {
             $('.schedule-table').append(that.createMatchComponent(match));
             match.matches.forEach(function(dayMatch) {
+                var addedClass = '';
+                if (dayMatch.match_name.indexOf('TBD') > -1 && match.matches.length <= 2) {
+                    addedClass = 'TBD';
+                }
                 $('.match-round-info.' + match.id.toString()).append(
                     ' <div class="match-info">\n' +
-                    '                            <div class="match-name">' + dayMatch.match_name + '</div>\n' +
+                    '                            <div class="match-name '+ addedClass +'">' + dayMatch.match_name + '</div>\n' +
                     '                            <div class="round-details">' + dayMatch.round + '</div>\n' +
-                    '                            <div class="match0-time">' + dayMatch.time + '</div>\n' +
+                    '                            <div class="match-time '+ addedClass +'">' + dayMatch.time + '</div>\n' +
                     '                        </div>'
                 )
             })

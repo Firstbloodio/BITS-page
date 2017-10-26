@@ -252,7 +252,13 @@ and (max-device-width: 767px)
         width: auto !important;
     }
 
-
+    .twitch-embed-container {
+        top: 230px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 258px;
+    }
 
 }
 

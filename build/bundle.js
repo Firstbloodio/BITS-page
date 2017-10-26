@@ -15057,6 +15057,37 @@ $(document).ready(function(){
     }
 
 
+    // var options = {
+    //     width: 434,
+    //     height: 258,
+    //     channel: "firstbloodio"
+    //
+    // };
+    // var player = new Twitch.Player("firstbloodio-stream", options);
+    // player.setVolume(0.5);
+    //
+    // player.addEventListener(Twitch.Player.OFFLINE, function(){
+    //     $('.header').removeClass('twitch_online');
+    //     $('.header-shapes').removeClass('twitch_online');
+    //     $('.header-gradient').removeClass('twitch_online');
+    //     $('.twitch-embed-container').addClass('hidden');
+    //     $('.bottom-info').removeClass('hidden');
+    // })
+    //
+    // player.addEventListener(Twitch.Player.ONLINE, function(){
+    //     $('.header').addClass('twitch_online');
+    //     $('.header-shapes').addClass('twitch_online');
+    //     $('.header-gradient').addClass('twitch_online');
+    //     $('.twitch-embed-container').removeClass('hidden');
+    //     $('.bottom-info').addClass('hidden');
+    // })
+    //
+    // player.addEventListener(Twitch.Player.READY, function(){
+    // })
+    //
+    //
+    // player.addEventListener(Twitch.Player.PLAY, function(){
+    // })
 
 });
 

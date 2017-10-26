@@ -14807,7 +14807,7 @@ module.exports=[
     "team": "Unknown Team",
     "gleamID": "I29Hq/vote-for-unknown-team-bits-americas-2017",
     "campaign_id": "I29Hq",
-    "country": "US",
+    "country": "PE",
     "avatar": "assets/css/images/team_logos/unknownteam.jpg",
     "date": "2017-10-21 at 12:00 US ET",
     "votes": 0
@@ -14855,6 +14855,69 @@ module.exports=[
     "country": "BO",
     "avatar": "assets/css/images/team_logos/extremegaming.jpg",
     "date": "2017-10-22 at 12:00 US ET",
+    "votes": 0
+  },
+  {
+    "team": "theViolament",
+    "gleamID": "Lzr8K/vote-for-theviolament-bits-americas-2017",
+    "campaign_id": "Lzr8K",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/theVIOLAMENT.jpg",
+    "date": "2017-10-24 at 12:00 US ET",
+    "votes": 0
+  },
+  {
+    "team": "Anonimus Gaming",
+    "gleamID": "CsuX1/vote-for-anonimus-gaming-bits-americas-2017",
+    "campaign_id": "CsuX1",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/anonimusgaming.jpg",
+    "date": "2017-10-24 at 12:01 US ET",
+    "votes": 0
+  },
+  {
+    "team": "GoldDeath",
+    "gleamID": "pbkGe/vote-for-golddeath-bits-americas-2017",
+    "campaign_id": "pbkGe",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/GoldDeath.jpg",
+    "date": "2017-10-24 at 12:02 US ET",
+    "votes": 0
+  },
+  {
+    "team": "Sacred",
+    "gleamID": "8b16v/vote-for-sacred-bits-americas-2017",
+    "campaign_id": "8b16v",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/sacred.jpg",
+    "date": "2017-10-24 at 12:04 US ET",
+    "votes": 0
+  },
+  {
+    "team": "Black Crow",
+    "gleamID": "8Q8dK/vote-for-black-crow-bits-americas-2017",
+    "campaign_id": "8Q8dK",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/blackcrow.jpg",
+    "date": "2017-10-24 at 12:04 US ET",
+    "votes": 0
+  },
+  {
+    "team": "TEAM CODE",
+    "gleamID": "79KIs/vote-for-team-code-bits-americas-2017",
+    "campaign_id": "79KIs",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/teamcode.jpg",
+    "date": "2017-10-25 at 12:00 US ET",
+    "votes": 0
+  },
+  {
+    "team": "Kraken",
+    "gleamID": "cUajX/vote-for-kraken-bits-americas-2017",
+    "campaign_id": "cUajX",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/kraken.jpg",
+    "date": "2017-10-25 at 12:01 US ET",
     "votes": 0
   }
 ]

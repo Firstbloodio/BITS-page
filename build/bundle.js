@@ -14919,6 +14919,15 @@ module.exports=[
     "avatar": "assets/css/images/team_logos/kraken.jpg",
     "date": "2017-10-25 at 12:01 US ET",
     "votes": 0
+  },
+  {
+    "team": "Wazap Meepo",
+    "gleamID": "Dvf4H/vote-for-wazap-meepo-bits-americas-2017",
+    "campaign_id": "Dvf4H",
+    "country": "US",
+    "avatar": "assets/css/images/team_logos/wazapmeepo.jpg",
+    "date": "2017-10-26 at 12:00 US ET",
+    "votes": 0
   }
 ]
 

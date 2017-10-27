@@ -1,0 +1,108 @@
+[
+  {
+    "id": 1,
+    "date": "TUESDAY, NOV 7th",
+    "matches": [
+      {
+        "match_name": "B: 3rd vs 6th",
+        "round": "UB R1",
+        "time": "17:00 US ET"
+      },
+      {
+        "match_name": "A: 1st vs 8th",
+        "round": "UB R1",
+        "time": "19:30 US ET"
+      },
+      {
+        "match_name": "C: TBD",
+        "round": "UB R1",
+        "time": "22:00 US ET"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "date": "WEDNESDAY, NOV 8th",
+    "matches": [
+      {
+        "match_name": "D: 2nd vs 7th",
+        "round": "UB R1",
+        "time": "17:00 CET"
+      },
+      {
+        "match_name": "E: 3rd vs 4th",
+        "round": "UB R1",
+        "time": "19:30 CET"
+      },
+      {
+        "match_name": "F: TBD",
+        "round": "UB R1",
+        "time": "22:00 CET"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "date": "THURSDAY, NOV.9th",
+    "matches": [
+      {
+        "match_name": "G: TBD",
+        "round": "UB R2",
+        "time": "17:00 CET"
+      },
+      {
+        "match_name": "H: TBD",
+        "round": "UB R2",
+        "time": "19:30 CET"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "date": "FRIDAY, NOV.10th",
+    "matches": [
+      {
+        "match_name": "I: TBD",
+        "round": "LB R2",
+        "time": "17:00 CET"
+      },
+      {
+        "match_name": "J: TBD",
+        "round": "LB R2",
+        "time": "19:30 CET"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "date": "SATURDAY, NOV.11th",
+    "matches": [
+      {
+        "match_name": "K: TBD",
+        "round": "LB R3",
+        "time": "17:00 CET"
+      },
+      {
+        "match_name": "L: TBD",
+        "round": "UB FINAL",
+        "time": "19:30 CET"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "date": "SUNDAY, NOV.12th",
+    "matches": [
+      {
+        "match_name": "M: TBD",
+        "round": "LB FINAL",
+        "time": "13:00 CET"
+      },
+      {
+        "match_name": "N: TBD",
+        "round": "GRAND FINAL",
+        "time": "15:30 CET"
+      }
+    ]
+  }
+]

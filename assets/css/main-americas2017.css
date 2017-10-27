@@ -1,6 +1,36 @@
 @import 'country-flags.css';
 @import 'mobile.css';
 
+
+/*next match*/
+.next-match-box {
+    height: 97px;
+    width: 320px;
+    border: 1px solid #C93A1B;
+    border-radius: 4px;
+    background-color: rgba(0,0,0,0.1);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.next, .match-date {
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.versus {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 5px 0;
+}
+
 @font-face {
     font-family: Korolev;
     font-weight: 600;
@@ -72,6 +102,10 @@ a {
 
 .hidden {
     display: none !important;
+}
+
+.header.twitch_online, .header-gradient.twitch_online, .header-shapes.twitch_online {
+    height: 550px;
 }
 
 /* Modal & backdrop css */
@@ -159,7 +193,7 @@ iframe, #loading-text {
 
 /* HEADER */
 
-.banner, .center-info, .bottom-info {
+.banner, .center-info, .bottom-info, .twitch-embed-container {
     z-index: 100;
     position: absolute;
 }
@@ -786,6 +820,15 @@ a.action-button {
     letter-spacing: 1px;
     line-height: 19px;
     text-align: right;
+}
+
+
+.twitch-embed-container {
+    top: 260px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 258px;
 }
 
 

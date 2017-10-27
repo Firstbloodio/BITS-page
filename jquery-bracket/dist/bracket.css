@@ -23,7 +23,7 @@ div.jQBracket .tools span {
 }
 
 div.jQBracket .tools span:hover {
-    background-color: #999
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 div.jQBracket .finals {
@@ -50,7 +50,8 @@ div.jQBracket .round {
 }
 
 div.jQBracket .match {
-    position: relative
+    position: relative;
+    /*height: 152px !important;*/
 }
 
 div.jQBracket .editable {
@@ -61,14 +62,21 @@ div.jQBracket .team {
     position: relative;
     z-index: 1;
     float: left;
-    background-color: rgba(238, 238, 238, 0.07);
-    border: 1px solid #222;
+    background-color: rgba(255, 255, 255, 0.1);
     cursor: default
 }
 
 div.jQBracket .team:first-child {
-    border-bottom: 1px solid rgba(238, 238, 238, 0.07)
+    border-radius: 4px 4px 0 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1)
+
 }
+
+div.jQBracket .team:nth-child(2) {
+    border-radius: 0 0 4px 4px;
+}
+
+
 
 div.jQBracket .team input {
     font-size: 14px;
@@ -85,7 +93,8 @@ div.jQBracket .team div.label {
     height: 22px;
     white-space: nowrap;
     overflow: hidden;
-    box-sizing: border-box
+    box-sizing: border-box;
+    margin-left: 10px;
 }
 
 div.jQBracket .team div.label[disabled] {
@@ -115,31 +124,31 @@ div.jQBracket .team div.score input.error {
 }
 
 div.jQBracket .team.np {
-    background-color: rgba(238, 238, 238, 0.07);
+    background-color: rgba(255, 255, 255, 0.1);
     color: #EEE
 }
 
 div.jQBracket .team.na {
-    background-color: rgba(238, 238, 238, 0.07);
+    background-color: rgba(255, 255, 255, 0.1);
     color: #CCC;
-    border: 1px solid #222;
 }
 
 div.jQBracket .team.win {
     color: #CCC;
-    background-color: rgba(238, 255, 238, 0.20);
+    background-color: rgba(255, 255, 255, 0.20);
 }
 
 div.jQBracket .team.win div.score {
-    color: #060
+    color: #7ED321
 }
 
 div.jQBracket .team.lose div.score {
-    color: #900
+    color: #FF4946
 }
 
 div.jQBracket .team.lose {
-    color: grey
+    color: grey;
+    background-color: rgba(86, 113, 136, 0.1);
 }
 
 div.jQBracket .team.tie div.score {
@@ -157,7 +166,7 @@ div.jQBracket .team.highlightLoser {
 }
 
 div.jQBracket .team.highlight {
-    background-color: #3C0;
+    background-color: rgba(255, 255, 255, 0.5);
     color: #000
 }
 
@@ -173,15 +182,16 @@ div.jQBracket .teamContainer {
 }
 
 div.jQBracket .connector {
-    border: 2px solid #666;
+    border: 1px solid rgba(255,255,255,0.3);
     border-left-style: none;
     position: absolute;
-    z-index: 1
+    z-index: 1;
+    min-height: 1px !important;
 }
 
 div.jQBracket .connector div.connector {
     border: 0;
-    border-bottom: 2px solid #666;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
     height: 0;
     position: absolute
 }
@@ -198,12 +208,12 @@ div.jQBracket .connector div.connector.highlightLoser {
 
 div.jQBracket .connector.highlight,
 div.jQBracket .connector div.connector.highlight {
-    border-color: #0C0
+    border-color: rgba(255,255,255,0.5)
 }
 
 div.jQBracket .np .connector,
 div.jQBracket .np .connector div.connector {
-    border-color: #999
+    border-color: rgba(255,255,255,0.3)
 }
 
 div.jQBracket .bubble {

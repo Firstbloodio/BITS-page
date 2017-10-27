@@ -1,32 +1,4 @@
 
-.next-match-box {
-    height: 97px;
-    width: 320px;
-    border: 1px solid #C93A1B;
-    border-radius: 4px;
-    background-color: rgba(0,0,0,0.1);
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.next, .match-date {
-    font-size: 12px;
-    font-weight: 600;
-    text-align: center;
-}
-
-
-.versus {
-    font-size: 18px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    text-align: center;
-    margin: 5px 0;
-}
-
 .rules-row {
     margin-bottom: 50px;
     color: #FFFFFF;

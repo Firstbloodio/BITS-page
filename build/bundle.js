@@ -14921,12 +14921,12 @@ module.exports=[
     "votes": 0
   },
   {
-    "team": "Wazap Meepo",
-    "gleamID": "Dvf4H/vote-for-wazap-meepo-bits-americas-2017",
-    "campaign_id": "Dvf4H",
+    "team": "FANTASIA FINAL",
+    "gleamID": "q5VZy/vote-for-fantasia-final-bits-americas-2017",
+    "campaign_id": "q5VZy",
     "country": "US",
-    "avatar": "assets/css/images/team_logos/wazapmeepo.jpg",
-    "date": "2017-10-26 at 12:00 US ET",
+    "avatar": "assets/css/images/team_logos/FANTASIAFINAL.jpg",
+    "date": "2017-10-28 at 12:00 US ET",
     "votes": 0
   }
 ]

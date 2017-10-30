@@ -15028,21 +15028,21 @@ $(document).ready(function(){
                 dataType: "json",
                 success: function (response) {
                     componentCreator.processTeams(teams, response);
-                    $('.vote-button').click(function () {
-                        var id = $(this)[0].id;
-
-                        if ($(window).width() < 768) {
-                            $(this).addClass('e-widget generic-loader');
-                            var index = teams.findIndex(function(team) {
-                                return team.gleamID === id.toString();
-                            });
-                            var teamLink =  teams[index].gleamID;
-                            $(this).attr('href', 'https://gleam.io/'+ teamLink);
-                            $(this).attr('target', '_blank');
-                        } else {
-                            componentCreator.createGleamModal(id);
-                        }
-                    });
+                    // $('.vote-button').click(function () {
+                    //     var id = $(this)[0].id;
+                    //
+                    //     if ($(window).width() < 768) {
+                    //         $(this).addClass('e-widget generic-loader');
+                    //         var index = teams.findIndex(function(team) {
+                    //             return team.gleamID === id.toString();
+                    //         });
+                    //         var teamLink =  teams[index].gleamID;
+                    //         $(this).attr('href', 'https://gleam.io/'+ teamLink);
+                    //         $(this).attr('target', '_blank');
+                    //     } else {
+                    //         componentCreator.createGleamModal(id);
+                    //     }
+                    // });
                 },
                 error: function (xhr, status) {
                 }
@@ -15120,7 +15120,7 @@ module.exports = componentsCreator = {
             '                        <div class="team-name">' + data.team +'</div>\n' +
             '                    </div>\n' +
             '                    <div class="team-card-vote">\n' +
-            '                        <a id="'+ data.gleamID +'" class="vote-button">VOTE</a>\n' +
+            // '                        <a id="'+ data.gleamID +'" class="vote-button">VOTE</a>\n' +
             // '                        <div class="votes">Votes: <span>'+ data.votes +'</span></div>\n' +
             '                    </div>\n' +
             '                </div>'

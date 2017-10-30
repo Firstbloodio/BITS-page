@@ -14343,17 +14343,17 @@ module.exports=[
       {
         "match_name": "D: 2nd vs 7th",
         "round": "UB R1",
-        "time": "17:00 CET"
+        "time": "17:00 US ET"
       },
       {
         "match_name": "E: 3rd vs 4th",
         "round": "UB R1",
-        "time": "19:30 CET"
+        "time": "19:30 US ET"
       },
       {
         "match_name": "F: TBD",
         "round": "UB R1",
-        "time": "22:00 CET"
+        "time": "22:00 US ET"
       }
     ]
   },
@@ -14364,12 +14364,12 @@ module.exports=[
       {
         "match_name": "G: TBD",
         "round": "UB R2",
-        "time": "17:00 CET"
+        "time": "17:00 US ET"
       },
       {
         "match_name": "H: TBD",
         "round": "UB R2",
-        "time": "19:30 CET"
+        "time": "19:30 US ET"
       }
     ]
   },
@@ -14380,12 +14380,12 @@ module.exports=[
       {
         "match_name": "I: TBD",
         "round": "LB R2",
-        "time": "17:00 CET"
+        "time": "17:00 US ET"
       },
       {
         "match_name": "J: TBD",
         "round": "LB R2",
-        "time": "19:30 CET"
+        "time": "19:30 US ET"
       }
     ]
   },
@@ -14396,12 +14396,12 @@ module.exports=[
       {
         "match_name": "K: TBD",
         "round": "LB R3",
-        "time": "17:00 CET"
+        "time": "17:00 US ET"
       },
       {
         "match_name": "L: TBD",
         "round": "UB FINAL",
-        "time": "19:30 CET"
+        "time": "19:30 US ET"
       }
     ]
   },
@@ -14412,12 +14412,12 @@ module.exports=[
       {
         "match_name": "M: TBD",
         "round": "LB FINAL",
-        "time": "13:00 CET"
+        "time": "13:00 US ET"
       },
       {
         "match_name": "N: TBD",
         "round": "GRAND FINAL",
-        "time": "15:30 CET"
+        "time": "15:30 US ET"
       }
     ]
   }

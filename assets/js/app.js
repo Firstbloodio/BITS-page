@@ -47,34 +47,34 @@ $(document).ready(function(){
     if (url === "/index.html" || loc === "") {
         /* setting up the timer */
 
-        var eventTime = moment("10/29/2017 23:59", "M/D/YYYY H:mm").unix()*1000;
-        var currentTime = moment.now();
-
-        var diff = moment.duration(eventTime - currentTime);
-
-        var days = diff.days();
-        var hours = diff.hours();
-        var minutes = diff.minutes();
-        var seconds = diff.seconds();
-
-        $('#countdown-days').text(days);
-        $('#countdown-hours').text(hours);
-        $('#countdown-minutes').text(minutes);
-
-        setInterval(function(){
-            var currentTime = moment.now();
-
-            var diff = moment.duration(eventTime - currentTime);
-
-            var days = diff.days();
-            var hours = diff.hours();
-            var minutes = diff.minutes();
-            var seconds = diff.seconds();
-
-            $('#countdown-days').text(days);
-            $('#countdown-hours').text(hours);
-            $('#countdown-minutes').text(minutes);
-        }, 60000);
+        // var eventTime = moment("10/29/2017 23:59", "M/D/YYYY H:mm").unix()*1000;
+        // var currentTime = moment.now();
+        //
+        // var diff = moment.duration(eventTime - currentTime);
+        //
+        // var days = diff.days();
+        // var hours = diff.hours();
+        // var minutes = diff.minutes();
+        // var seconds = diff.seconds();
+        //
+        // $('#countdown-days').text(days);
+        // $('#countdown-hours').text(hours);
+        // $('#countdown-minutes').text(minutes);
+        //
+        // setInterval(function(){
+        //     var currentTime = moment.now();
+        //
+        //     var diff = moment.duration(eventTime - currentTime);
+        //
+        //     var days = diff.days();
+        //     var hours = diff.hours();
+        //     var minutes = diff.minutes();
+        //     var seconds = diff.seconds();
+        //
+        //     $('#countdown-days').text(days);
+        //     $('#countdown-hours').text(hours);
+        //     $('#countdown-minutes').text(minutes);
+        // }, 60000);
 
 
         /* initialise the teams */

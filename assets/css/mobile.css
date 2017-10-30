@@ -260,6 +260,10 @@ and (max-device-width: 767px)
         height: 258px;
     }
 
+    .registration_closed {
+        margin-top: 65px !important;
+    }
+
 }
 
 

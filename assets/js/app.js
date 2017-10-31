@@ -47,34 +47,34 @@ $(document).ready(function(){
     if (url === "/index.html" || loc === "") {
         /* setting up the timer */
 
-        var eventTime = moment("10/29/2017 23:59", "M/D/YYYY H:mm").unix()*1000;
-        var currentTime = moment.now();
-
-        var diff = moment.duration(eventTime - currentTime);
-
-        var days = diff.days();
-        var hours = diff.hours();
-        var minutes = diff.minutes();
-        var seconds = diff.seconds();
-
-        $('#countdown-days').text(days);
-        $('#countdown-hours').text(hours);
-        $('#countdown-minutes').text(minutes);
-
-        setInterval(function(){
-            var currentTime = moment.now();
-
-            var diff = moment.duration(eventTime - currentTime);
-
-            var days = diff.days();
-            var hours = diff.hours();
-            var minutes = diff.minutes();
-            var seconds = diff.seconds();
-
-            $('#countdown-days').text(days);
-            $('#countdown-hours').text(hours);
-            $('#countdown-minutes').text(minutes);
-        }, 60000);
+        // var eventTime = moment("10/29/2017 23:59", "M/D/YYYY H:mm").unix()*1000;
+        // var currentTime = moment.now();
+        //
+        // var diff = moment.duration(eventTime - currentTime);
+        //
+        // var days = diff.days();
+        // var hours = diff.hours();
+        // var minutes = diff.minutes();
+        // var seconds = diff.seconds();
+        //
+        // $('#countdown-days').text(days);
+        // $('#countdown-hours').text(hours);
+        // $('#countdown-minutes').text(minutes);
+        //
+        // setInterval(function(){
+        //     var currentTime = moment.now();
+        //
+        //     var diff = moment.duration(eventTime - currentTime);
+        //
+        //     var days = diff.days();
+        //     var hours = diff.hours();
+        //     var minutes = diff.minutes();
+        //     var seconds = diff.seconds();
+        //
+        //     $('#countdown-days').text(days);
+        //     $('#countdown-hours').text(hours);
+        //     $('#countdown-minutes').text(minutes);
+        // }, 60000);
 
 
         /* initialise the teams */
@@ -94,21 +94,21 @@ $(document).ready(function(){
                 dataType: "json",
                 success: function (response) {
                     componentCreator.processTeams(teams, response);
-                    $('.vote-button').click(function () {
-                        var id = $(this)[0].id;
-
-                        if ($(window).width() < 768) {
-                            $(this).addClass('e-widget generic-loader');
-                            var index = teams.findIndex(function(team) {
-                                return team.gleamID === id.toString();
-                            });
-                            var teamLink =  teams[index].gleamID;
-                            $(this).attr('href', 'https://gleam.io/'+ teamLink);
-                            $(this).attr('target', '_blank');
-                        } else {
-                            componentCreator.createGleamModal(id);
-                        }
-                    });
+                    // $('.vote-button').click(function () {
+                    //     var id = $(this)[0].id;
+                    //
+                    //     if ($(window).width() < 768) {
+                    //         $(this).addClass('e-widget generic-loader');
+                    //         var index = teams.findIndex(function(team) {
+                    //             return team.gleamID === id.toString();
+                    //         });
+                    //         var teamLink =  teams[index].gleamID;
+                    //         $(this).attr('href', 'https://gleam.io/'+ teamLink);
+                    //         $(this).attr('target', '_blank');
+                    //     } else {
+                    //         componentCreator.createGleamModal(id);
+                    //     }
+                    // });
                 },
                 error: function (xhr, status) {
                 }

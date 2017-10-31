@@ -15,7 +15,7 @@ module.exports = componentsCreator = {
             '                        <div class="team-name">' + data.team +'</div>\n' +
             '                    </div>\n' +
             '                    <div class="team-card-vote">\n' +
-            '                        <a id="'+ data.gleamID +'" class="vote-button">VOTE</a>\n' +
+            // '                        <a id="'+ data.gleamID +'" class="vote-button">VOTE</a>\n' +
             // '                        <div class="votes">Votes: <span>'+ data.votes +'</span></div>\n' +
             '                    </div>\n' +
             '                </div>'

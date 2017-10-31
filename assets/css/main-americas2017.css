@@ -310,6 +310,10 @@ iframe, #loading-text {
     width: 196px;
 }
 
+.bits-badge.mobile {
+    display: none;
+}
+
 .center-info {
     width: 100%;
     top: 45px;
@@ -829,6 +833,10 @@ a.action-button {
     display: flex;
     justify-content: center;
     height: 258px;
+}
+
+.registration_closed {
+    margin-top: 25px;
 }
 
 

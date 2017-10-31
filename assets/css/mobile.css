@@ -133,6 +133,16 @@ and (max-device-width: 767px)
         display: none;
     }
 
+
+    .bits-badge.mobile {
+        display: block !important;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 150px;
+        width: 150px;
+        margin: auto;
+    }
+
     .headline-info {
         margin: 50px auto  0 !important;
     }
@@ -258,6 +268,11 @@ and (max-device-width: 767px)
         display: flex;
         justify-content: center;
         height: 258px;
+    }
+
+    .registration_closed {
+        margin-top: 135px !important;
+        font-size: 13px;
     }
 
 }

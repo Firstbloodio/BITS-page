@@ -14331,7 +14331,7 @@ module.exports=[
       },
       {
         "match_name": "C: TBD",
-        "round": "UB R1",
+        "round": "LB R1",
         "time": "22:00 US ET"
       }
     ]
@@ -14352,7 +14352,7 @@ module.exports=[
       },
       {
         "match_name": "F: TBD",
-        "round": "UB R1",
+        "round": "LB R1",
         "time": "22:00 US ET"
       }
     ]

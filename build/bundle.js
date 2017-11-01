@@ -14320,17 +14320,17 @@ module.exports=[
     "date": "TUESDAY, NOV 7th",
     "matches": [
       {
-        "match_name": "B: 3rd vs 6th",
+        "match_name": "2nd vs 7th",
         "round": "UB R1",
         "time": "17:00 US ET"
       },
       {
-        "match_name": "A: 1st vs 8th",
+        "match_name": "3rd vs 4th",
         "round": "UB R1",
         "time": "19:30 US ET"
       },
       {
-        "match_name": "C: TBD",
+        "match_name": "TBD",
         "round": "LB R1",
         "time": "22:00 US ET"
       }
@@ -14341,17 +14341,17 @@ module.exports=[
     "date": "WEDNESDAY, NOV 8th",
     "matches": [
       {
-        "match_name": "D: 2nd vs 7th",
+        "match_name": "3rd vs 6th",
         "round": "UB R1",
         "time": "17:00 US ET"
       },
       {
-        "match_name": "E: 3rd vs 4th",
+        "match_name": "1st vs 8th",
         "round": "UB R1",
         "time": "19:30 US ET"
       },
       {
-        "match_name": "F: TBD",
+        "match_name": "TBD",
         "round": "LB R1",
         "time": "22:00 US ET"
       }
@@ -14362,13 +14362,13 @@ module.exports=[
     "date": "THURSDAY, NOV.9th",
     "matches": [
       {
-        "match_name": "G: TBD",
+        "match_name": "TBD",
         "round": "UB R2",
         "time": "17:00 US ET"
       },
       {
-        "match_name": "H: TBD",
-        "round": "UB R2",
+        "match_name": "TBD",
+        "round": "LB R2",
         "time": "19:30 US ET"
       }
     ]
@@ -14378,15 +14378,16 @@ module.exports=[
     "date": "FRIDAY, NOV.10th",
     "matches": [
       {
-        "match_name": "I: TBD",
+        "match_name": "TBD",
         "round": "LB R2",
         "time": "17:00 US ET"
       },
       {
-        "match_name": "J: TBD",
-        "round": "LB R2",
+        "match_name": "TBD",
+        "round": "UB R2",
         "time": "19:30 US ET"
       }
+
     ]
   },
   {
@@ -14394,12 +14395,12 @@ module.exports=[
     "date": "SATURDAY, NOV.11th",
     "matches": [
       {
-        "match_name": "K: TBD",
+        "match_name": "TBD",
         "round": "LB R3",
         "time": "17:00 US ET"
       },
       {
-        "match_name": "L: TBD",
+        "match_name": "TBD",
         "round": "UB FINAL",
         "time": "19:30 US ET"
       }
@@ -14410,12 +14411,12 @@ module.exports=[
     "date": "SUNDAY, NOV.12th",
     "matches": [
       {
-        "match_name": "M: TBD",
+        "match_name": "TBD",
         "round": "LB FINAL",
         "time": "13:00 US ET"
       },
       {
-        "match_name": "N: TBD",
+        "match_name": "TBD",
         "round": "GRAND FINAL",
         "time": "15:30 US ET"
       }

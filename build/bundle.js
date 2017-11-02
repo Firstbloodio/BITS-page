@@ -14433,7 +14433,7 @@ module.exports=[
     "country": "US",
     "avatar": "assets/css/images/team_logos/leviathan.jpg",
     "date": "11/3/2017 at 14:00 US ET",
-    "votes": 9450
+    "votes": 134625
   },
   {
     "team": "VGJ.Storm",
@@ -14442,7 +14442,7 @@ module.exports=[
     "country": "US",
     "avatar": "assets/css/images/team_logos/VGJ_Storm.jpg",
     "date": "11/3/2017 at 14:00 US ET",
-    "votes": 19350
+    "votes":  41575
   },
   {
     "team": "Blue Pikachu",
@@ -14451,7 +14451,7 @@ module.exports=[
     "country": "US",
     "avatar": "assets/css/images/team_logos/blue_pikachu.jpg",
     "date": "11/3/2017 at 14:00 US ET",
-    "votes": 22150
+    "votes": 74325
   },
   {
     "team": "Team Morty",
@@ -14469,7 +14469,7 @@ module.exports=[
     "country": "PE",
     "avatar": "assets/css/images/team_logos/mad_kings.jpg",
     "date": "11/3/2017 at 14:00 US ET",
-    "votes": 31825
+    "votes": 49000
   },
   {
     "team": "Wheel Wreck",
@@ -14514,7 +14514,7 @@ module.exports=[
     "country": "PE",
     "avatar": "assets/css/images/team_logos/elite_wolves.jpg",
     "date": "11/3/2017 at 14:00 US ET",
-    "votes": 54250
+    "votes": 100075
   },
   {
     "team": "G-Pride",
@@ -14523,7 +14523,7 @@ module.exports=[
     "country": "PE",
     "avatar": "assets/css/images/team_logos/gpride.jpg",
     "date": "11/3/2017 at 14:00 US ET",
-    "votes": 17450
+    "votes": 126975
   },
   {
     "team": "SuperDoraemon",
@@ -14541,7 +14541,7 @@ module.exports=[
     "country": "BO",
     "avatar": "assets/css/images/team_logos/sage.jpg",
     "date": "11/3/2017 at 14:00 US ET",
-    "votes": 15125
+    "votes": 52550
   },
   {
     "team": "Savage Magikarps",
@@ -14559,7 +14559,7 @@ module.exports=[
     "country": "US",
     "avatar": "assets/css/images/team_logos/minds_eye.jpg",
     "date": "11/3/2017 at 14:00 US ET",
-    "votes": 13075
+    "votes": 58500
   },
   {
     "team": "Luccini Gaming",
@@ -14568,7 +14568,7 @@ module.exports=[
     "country": "PE",
     "avatar": "assets/css/images/team_logos/luccini.jpg",
     "date": "11/3/2017 at 14:00 US ET",
-    "votes": 10225
+    "votes": 116150
   },
   {
     "team": "Reveng Esports",
@@ -14604,7 +14604,7 @@ module.exports=[
     "country": "US",
     "avatar": "assets/css/images/team_logos/pizzadog.jpg",
     "date": "2017-10-18 at 01:17 US ET",
-    "votes": 3050
+    "votes":  31250
   },
   {
     "team": "Teamorino Meeporino",
@@ -14748,7 +14748,7 @@ module.exports=[
     "country": "AU",
     "avatar": "assets/css/images/team_logos/ces.jpg",
     "date": "2017-10-19 at 12:11 US ET",
-    "votes": 0
+    "votes": 161575
   },
   {
     "team": "Jano Jam",
@@ -14847,7 +14847,7 @@ module.exports=[
     "country": "BO",
     "avatar": "assets/css/images/team_logos/extremegaming.jpg",
     "date": "2017-10-22 at 12:00 US ET",
-    "votes": 0
+    "votes": 12500
   },
   {
     "team": "theViolament",
@@ -14883,7 +14883,7 @@ module.exports=[
     "country": "PE",
     "avatar": "assets/css/images/team_logos/sacred.jpg",
     "date": "2017-10-24 at 12:04 US ET",
-    "votes": 0
+    "votes": 98475
   },
   {
     "team": "Black Crow",
@@ -15155,10 +15155,17 @@ module.exports = componentsCreator = {
 
         teams.forEach(function(team) {
             var campaign = team.campaign_id.toString();
-            if (votesData[campaign])
-                team.votes = votesData[campaign].votes;
-            else
-                team.votes = 0;
+            if (votesData[campaign]) {
+                if (campaign !== 'O6qUm' && campaign !== 'pUyWi' &&
+                    campaign !== 'pkG6D' && campaign !== '6QOPn' &&
+                    campaign !== '3CsWd' && campaign !== '8b16v' &&
+                    campaign !== 'aX3lW' && campaign !== '2dOwF' &&
+                    campaign !== 'B1HES' && campaign !== 'z755W' &&
+                    campaign !== 'eoTH4' && campaign !== 'w46od' &&
+                    campaign !== 'zWK6K') {
+                    team.votes = votesData[campaign].votes;
+                }
+            }
         });
 
         teams.sort(function(a, b) {

@@ -58,10 +58,17 @@ module.exports = componentsCreator = {
 
         teams.forEach(function(team) {
             var campaign = team.campaign_id.toString();
-            if (votesData[campaign])
-                team.votes = votesData[campaign].votes;
-            else
-                team.votes = 0;
+            if (votesData[campaign]) {
+                if (campaign !== 'O6qUm' && campaign !== 'pUyWi' &&
+                    campaign !== 'pkG6D' && campaign !== '6QOPn' &&
+                    campaign !== '3CsWd' && campaign !== '8b16v' &&
+                    campaign !== 'aX3lW' && campaign !== '2dOwF' &&
+                    campaign !== 'B1HES' && campaign !== 'z755W' &&
+                    campaign !== 'eoTH4' && campaign !== 'w46od' &&
+                    campaign !== 'zWK6K') {
+                    team.votes = votesData[campaign].votes;
+                }
+            }
         });
 
         teams.sort(function(a, b) {

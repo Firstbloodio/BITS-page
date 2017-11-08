@@ -14320,7 +14320,7 @@ module.exports=[
     "date": "TUESDAY, NOV 7th",
     "matches": [
       {
-        "match_name": "GP vs SCD",
+        "match_name": "SCD vs BP",
         "round": "UB R1",
         "time": "17:00 US ET"
       },
@@ -14341,12 +14341,12 @@ module.exports=[
     "date": "WEDNESDAY, NOV 8th",
     "matches": [
       {
-        "match_name": "LEV vs BP",
+        "match_name": "LEV vs ME",
         "round": "UB R1",
         "time": "17:00 US ET"
       },
       {
-        "match_name": "CES vs ME",
+        "match_name": "CES vs GPD",
         "round": "UB R1",
         "time": "19:30 US ET"
       },

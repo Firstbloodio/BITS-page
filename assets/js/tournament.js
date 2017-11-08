@@ -1,9 +1,9 @@
 var brackets = {
   "teams": [
-    ["Blue Pikachu", "Leviathan"],
-    ["CES", "Mind's Eye"],
-    ["Elite Wolves", "Luccini Gaming"],
-    ["G-Pride", "Sacred"]
+    ["Mind's Eye", "Leviathan"],
+    ["CES", "G-Pride"],
+    ["Sacred", "Blue Pikachu"],
+    ["Luccini Gaming", "Elite Wolves"]
   ],
   "results": [            // List of brackets (three since this is double elimination)
     [ // R1 Upper bracket

@@ -19,7 +19,7 @@ var brackets = {
     ],
     [ // R1 Loser bracket
       [[,], // match C
-      [,]], // match F
+      [1,2]], // match F
       // R2 Loser bracket
       [[,], // match I
       [,]],  // match J

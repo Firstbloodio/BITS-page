@@ -7,10 +7,10 @@ var brackets = {
   ],
   "results": [            // List of brackets (three since this is double elimination)
     [ // R1 Upper bracket
-      [[,], // match A
+      [[0,2], // match A
       [,],  // match B
-      [,],  // match D
-      [,]], // match E
+      [1,0],  // match D
+      [2,0]], // match E
       // R2 Upper bracket
       [[,], // match G
       [,]], // match H
